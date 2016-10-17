@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Raleway","Source Sans Pro", Arial, sans-serif;
   line-height: 1.5;
   background: #fff;
   color: #848484;
@@ -44,7 +44,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #5a5a5a;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Montserrat","Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -539,6 +539,13 @@ h3.heading-section:before {
     height: 400px;
   }
 }
+
+.fh5co-grid .pop {
+    background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+
 .fh5co-grid .image-popup {
   position: absolute;
   top: 0;
@@ -565,7 +572,7 @@ h3.heading-section:before {
   color: #fff;
 }
 .fh5co-grid:hover .image-popup {
-  opacity: 1;
+  opacity: 1;    
 }
 
 .work-wrap-bg {
@@ -822,7 +829,7 @@ h3.heading-section:before {
 }
 
 #fh5co-blog-section, #fh5co-start-project-section {
-  background: #184bde;
+  background: grey;
   padding: 5em 0;
 }
 #fh5co-blog-section h3.heading-section, #fh5co-start-project-section h3.heading-section {
@@ -1411,5 +1418,87 @@ h3.heading-section:before {
   display: block !important;
 }   
 
+
+.testimonial{
+    text-align: center;
+}
+.description{
+    color:#656565;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding:0px 11%;
+    position: relative;
+}
+.description:before{
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 2%;
+    color:#79c34f;
+    font-size: 36px;
+}
+.description:after{
+    content: "\f10e";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 2%;
+    color:#79c34f;
+    font-size: 36px;
+}
+.pic{
+    width: 94px;
+    height: 94px;
+    margin: 0 auto;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial-title{
+    font-size: 18px;
+    color:#333;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.testimonial-title > small{
+    display: block;
+    color:#656565;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #3498db;
+}
+.owl-theme .owl-controls .owl-page span{
+    opacity: 1;
+}
+@media screen and (max-width: 480px) {
+    .description{
+        font-size:19px;
+        line-height: 29px;
+    }
+    .description:before,
+    .description:after{
+        font-size: 25px;
+    }
+}
+
+/*BACK TO BASIC*/
+
+
+.apst-button {
+    background-color: #ffc107 !important;
+    }
+
+.apst-button:hover {
+    background-color: #bdc3c7 !important;
+    }
 
 /*# sourceMappingURL=style.css.map */

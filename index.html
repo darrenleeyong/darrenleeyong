@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -8,9 +9,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>DARREN LEE YONG &mdash;</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="Portfolio website of Darren Lee Yong, freelance web and graphic designer." />
+	<meta name="keywords" content="darren lee yong, entrepreneurship, graphic design, web design, html5, css3, mobile first, responsive" />
+	<meta name="author" content="DarrenLeeYong" />
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -24,12 +25,17 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="images/user-1.jpg">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+        
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
 	
         <!--CSS
    ================================================== -->
+    
+     <!-- back to top css -->   
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
         
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -72,7 +78,15 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+        
+<!--        BACK TO TOP-->
+         <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
+		<link rel="stylesheet" href="lib/css/ap-scroll-top.css" type="text/css" media="all" />
+		<script src="lib/js/ap-scroll-top.js"></script>
+        
+        
 	</head>
 	
 <!------------------------------------------------------------------------------------*/
@@ -85,7 +99,7 @@
 		<div id="fh5co-header">
 			<div class="top">
 				<div class="container">
-					<span> <a href="mailto:darrenleeyong@gmail.com"; target="_blank"><i>@</i> darrenleeyong@gmail.com </a></span>
+					<span> <a href="mailto:darrenleeyong@gmail.com"; target="_blank"><i class=icon-email""></i> darrenleeyong@gmail.com </a></span>
 					<span> <a href="tel://+6598413771"><i class="icon-mobile3"></i> +65 9841 3771</a></span>
 				</div>
 			</div>
@@ -101,11 +115,13 @@
 							<li class="active">
 								<a href="index.html">Home</a>
 							</li>
-							<li>
-								<a href="">Portfolio</a>
+							
+							<li><a href="#fh5co-about">About</a></li>
+                            <li>
+								<a href="#fh5co-work-section">Portfolio</a>
 							</li>
-							<li><a href="">About</a></li>
-							<li><a href="">Contact</a></li>
+							<li><a href="#fh5co-testimony-section">Testimonials</a></li>
+                            <li><a href="#fh5co-start-project-section">Contact</a></li>
 						</ul>
 					</nav>
 					</div>
@@ -122,9 +138,9 @@
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" style="background-image: url(images/work-1.jpg);">
 				<div class="desc animate-box">
-					<h2>HUMBLE ABODE</h2>
-					<span>Enjoy your stay.</span>
-					<span><a class="btn btn-primary" href="#">Find out more!</a></span>
+					<h2>DARREN LEE</h2>
+					<span>freelance web/graphic designer.</span>
+					<span><a class="btn btn-primary" href="#fh5co-about">COME ON IN</a></span>
 				</div>
 			</div>
 
@@ -147,10 +163,10 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6 animate-box">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+						<p>Hello. I am Darren, a 2nd year student of National University of Singapore, majoring in Communication and New Media. I am an energetic, positive and self-motivated individual, who strives to deliver quality work while paying high attention to detail. I am a firm believer in lifelong learning and enjoy using my creativity to come up with innovative ways to solve a myriad of problems. </p>
 					</div>
 					<div class="col-md-6 animate-box">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+						<p>I am a self-taught web/graphic designer. </p>
 					</div>
 				</div>
 			</div>
@@ -166,7 +182,7 @@
 				<div class="row">
 					<div class="col-md-3 animate-box">
 						<h3 class="heading-section">PROJECTS / PORTFOLIO</h3>
-						<p>These are some of the projects that I have been working on. </p>
+						<p>These are some of my works! Click on the images to have a better look. Slides will redirect to presentation view. </p>
                          
 					</div>
 					<div class="col-md-9">
@@ -174,19 +190,39 @@
 						<div class="row">
                             
 							<div class="col-md-4 col-sm-4">
-								<div class="fh5co-grid animate-box pop" style="background-image: url(images/work-2.jpg);">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/logo.png);">
 									<a class="image-popup text-center">
-                                        <img src="images/work-2.jpg" style="width:100%; height:100%">
+                                        <img src="images/logo.png" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
-											<h3>First project</h3>
-											<span>Simple logo design</span>
+											<h3>My Logo</h3>
+											<span>Darren Lee</span>
 										</div>
 									</a>
 								</div>
 							</div>
 							<div class="col-md-8 col-sm-8">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
-									<a class="image-popup text-center" href="#">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/darrenleeyongresume.jpg);">
+									<a class="image-popup text-center">
+                                         <img src="images/darrenleeyongresume.jpg" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>My Creative Resume</h3>
+											<span></span>
+										</div>
+									</a>
+								</div>
+							</div>
+                            
+                        </div>
+					</div>
+                        
+                    
+                    
+                    <div class="col-md-12 animate-box">        
+                        <div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/Certificates.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/certificates.png" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
 											<h3>Don’t Just Stand There</h3>
 											<span>Illustration, Print</span>
@@ -194,21 +230,10 @@
 									</a>
 								</div>
 							</div>
-                            
-                            
-							<div class="col-md-8 col-sm-8">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
-									<a class="image-popup text-center" href="#">
-										<div class="prod-title">
-											<h3>Don’t Just Stand There</h3>
-											<span>Illustration, Print</span>
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
-									<a class="image-popup text-center" href="#">
+							<div class="col-md-6 col-sm-6">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/RCYNUSwebsite.png);">
+									<a class="image-popup text-center" href="https://darrenleeyong.github.io/RCYNUSwebsite/" target="_blank">
+                                        <img src="images/RCYNUSwebsite.png" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
 											<h3>Don’t Just Stand There</h3>
 											<span>Illustration, Print</span>
@@ -218,8 +243,9 @@
 							</div>
                             
                             <div class="col-md-4 col-sm-4">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
-									<a class="image-popup text-center" href="#">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/logoprocircle.jpg);">
+									<a class="image-popup text-center">
+                                        <img src="images/logoprocircle.jpg" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
 											<h3>Don’t Just Stand There</h3>
 											<span>Illustration, Print</span>
@@ -228,8 +254,9 @@
 								</div>
 							</div>
 							<div class="col-md-8 col-sm-8">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
-									<a class="image-popup text-center" href="#">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/dinglebizcard1.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/dinglebizcard1.png" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
 											<h3>Don’t Just Stand There</h3>
 											<span>Illustration, Print</span>
@@ -239,8 +266,9 @@
 							</div>
                             
                             <div class="col-md-8 col-sm-8">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
-									<a class="image-popup text-center" href="#">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/shirts4.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/shirts4.png" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
 											<h3>Don’t Just Stand There</h3>
 											<span>Illustration, Print</span>
@@ -249,8 +277,9 @@
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-4">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
-									<a class="image-popup text-center" href="#">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/shirt2.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/shirt2.png" style="width:100%; height:100%; display:none;">
 										<div class="prod-title">
 											<h3>Don’t Just Stand There</h3>
 											<span>Illustration, Print</span>
@@ -258,9 +287,119 @@
 									</a>
 								</div>
 							</div>
+                            
+                            <div class="col-md-6 col-sm-6">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/nm2103.png);">
+									<a class="image-popup text-center" href="https://docs.google.com/presentation/d/1FKTXfUtV5F60BC_JUS8JKogmCGWiCzHloYsI1ssBMCg/edit?usp=sharing" target="_blank">
+                                        <img src="images/nm2103.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Illustration, Print</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/ges1028.png);">
+									<a class="image-popup text-center" href="https://docs.google.com/presentation/d/10AJcCCAskxq3rN3VIPhUlmVDgjdP_tj7C2MwkGRlCWs/edit?usp=sharing" target="_blank">
+                                        <img src="images/ges1028.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Redirect to Slides</span>
+										</div>
+									</a>
+								</div>
+							</div>
+                            
+                                                        <div class="col-md-3 col-sm-3">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/interactive%20global.png);">
+									<a class="image-popup text-center" >
+                                        <img src="images/interactive%20global.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Illustration, Print</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/life%20after%20psle2.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/life%20after%20psle2.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Redirect to Slides</span>
+										</div>
+									</a>
+								</div>
+							</div>
+                            
+                            					<div class="col-md-6 col-sm-6">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/4.jpg);">
+									<a class="image-popup text-center">
+                                        <img src="images/4.jpg" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Redirect to Slides</span>
+										</div>
+									</a>
+								</div>
+							</div>
+                            
+                            
+                                                        <div class="col-md-8 col-sm-8">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/Sign%20upphonemockup.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/Sign%20upphonemockup.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Illustration, Print</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/Logold3.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/Logold3.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Illustration, Print</span>
+										</div>
+									</a>
+								</div>
+							</div>
+                            
+                            
+                              <div class="col-md-8 col-sm-8">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/artboard.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/artboard.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Illustration, Print</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="fh5co-grid animate-box pop" style="background-image: url(images/art1.png);">
+									<a class="image-popup text-center">
+                                        <img src="images/art1.png" style="width:100%; height:100%; display:none;">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>Illustration, Print</span>
+										</div>
+									</a>
+								</div>
+							</div>
+                            
+                            
 
-						</div>
-					</div>
+                            </div>
+                        </div>
+                            
+						
 				</div>
 			</div>
 		</div>
@@ -353,47 +492,82 @@
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 col-offset-0 to-animate">
-					<div class="wrap-testimony animate-box">
-						<div class="owl-carousel-fullwidth">
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person1.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-									</blockquote>
-									<span>Athan Smith, via <a href="#" class="twitter">Twitter</a></span>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person2.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-									</blockquote>
-									<span>Nathalie Kosley, via <a href="#" class="twitter">Twitter</a></span>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/person3.jpg" alt="user">
-									</figure>
-									<blockquote>
-										<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-									</blockquote>
-									<span>Yanna Kuzuki, via <a href="#" class="twitter">Twitter</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+            
+            
+    <div class="row">
+        <div class="col-md-12 animate-box">
+            <div class="col-sm-offset-1 col-sm-10">
+                <div id="testimonial-slider" class="owl-carousel">
+                    
+                    
+                    
+                    <div class="testimonial">
+                        <p class="description">
+                            Darren understood exactly what we wanted. His design was of professional standards and his communication skills made him easy to work with. I would highly recommend him to anyone who wants quality work.
+                        </p>
+ 
+                        <div class="testimonial-review">
+                            <div class="pic">
+                                <img src="images/user-1.jpg" alt="">
+                            </div>
+                            <br>
+                            <h4 class="testimonial-title">
+                                Choi Mijin
+                                <small>Head Coach, <br> The Archery Academy</small>
+                            </h4>
+                        </div>
+                    </div>
+ 
+                    
+                    
+                    <div class="testimonial">
+                        <p class="description">
+                            Darren is a diligent and meticulous individual who has given his best efforts into the making
+                            of the site. He has taken initiative in this project and went the extra mile, integrating multiple
+                            features such as photo gallery sliders and smooth transitions across content along the webpage,
+                            thus enhancing the user interface of our website. His high-quality work has been greatly
+                            appreciated and complimented by our senior staff advisors and student leaders alike.
+                        </p>
+ 
+                        <div class="testimonial-review">
+                            <div class="pic">
+                                <img src="images/user-1.jpg" alt="">
+                            </div>
+                            <br>
+                            <h4 class="testimonial-title">
+                                Edric Phua<br>
+
+                                <small>President, 21st Executive Committee, <br>Red Cross Youth (NUS Chapter)</small>
+                            </h4>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="testimonial">
+                        <p class="description">
+                            Darren came in and helped us out in a pro bono fashion. His main contribution was to help us design our new logo and did a fantastic job in the end. Not only did he deliver on time, he was very patient with us when we asked for certain changes to be made. Lastly, I was extremely impressed by Darren's work ethic as well as he has shown to be able to put in long hours if needed in order to get the job done. Most importantly, he did all was required of him and more without any complains, which is a sign of commitment and dedication.
+                        </p>
+ 
+                        <div class="testimonial-review">
+                            <div class="pic">
+                                <img src="images/user-1.jpg" alt="">
+                            </div>
+                            <br>
+                            <h4 class="testimonial-title">
+                                Gao Fei Yu
+                                <small>Founder and Managing Director, <br> Dingle Tutors</small>
+                            </h4>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+            
 		</div>
 	</div>
             
@@ -403,54 +577,41 @@
 /*------------------------------------------------------------------------------------->
             
             
+            <!-- fh5co-work-section -->
+		<div id="fh5co-start-project-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center animate-box">
+						<h2>Will design for food</h2>
+						<a href="mailto:darrenleeyong@gmail.com"; target="_blank" class="btn btn-primary">Send me an email!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- START a project -->
+            
 <!------------------------------------------------------------------------------------*/
 	FOOTER
 /*------------------------------------------------------------------------------------->
-            
-            <footer id="fh5co-footer" role="contentinfo">
-	
-		<div class="container">
-			<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-				<h3>About Us</h3>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-				<p><a href="#" class="btn btn-primary btn-outline with-arrow btn-sm">Join Us <i class="icon-arrow-right"></i></a></p>
+          <footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p clas="copyright">Copyright 2016 Darren lee yong </p>
+						</div>
+						<div class="col-md-6">
+							<ul class="footer-menu">
+								<li><a href="#">Home</a></li>
+								<li><a href="#fh5co-about">About</a></li>
+								<li><a href="#fh5co-work-section">Portfolio</a></li>
+								<li><a href="#fh5co-testimony-section">Testimonial</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-6 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-				<h3>Our Services</h3>
-				<ul class="float">
-					<li><a href="#">Web Design</a></li>
-					<li><a href="#">Branding &amp; Identity</a></li>
-					<li><a href="#">Free HTML5</a></li>
-					<li><a href="#">HandCrafted Templates</a></li>
-				</ul>
-				<ul class="float">
-					<li><a href="#">Free Bootstrap Template</a></li>
-					<li><a href="#">Free HTML5 Template</a></li>
-					<li><a href="#">Free HTML5 &amp; CSS3 Template</a></li>
-					<li><a href="#">HandCrafted Templates</a></li>
-				</ul>
-
-			</div>
-
-			<div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-				<h3>Follow Us</h3>
-				<ul class="fh5co-social">
-					<li><a href="#"><i class="icon-twitter"></i></a></li>
-					<li><a href="#"><i class="icon-facebook"></i></a></li>
-					<li><a href="#"><i class="icon-google-plus"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-				</ul>
-			</div>
-			
-			
-			<div class="col-md-12 fh5co-copyright text-center">
-				<p>&copy; 2016 Free HTML5 template. All Rights Reserved. <span>Designed with <i class="icon-heart"></i> by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images by <a href="http://unsplash.com/" target="_blank">Unsplash</a></span></p>	
-			</div>
-			
-		</div>
-	</footer>
-            
-	
+		</footer>
 
 	</div>
 	<!-- END fh5co-page -->
@@ -458,6 +619,8 @@
 	</div>
 	<!-- END fh5co-wrapper -->
 
+
+ 
     <script>
         
 $(function() {
@@ -466,7 +629,128 @@ $(function() {
 			$('#imagemodal').modal('show');   
 		});		
 });
-    
+        
+        $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1199,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination: true,
+        autoPlay:true
+    });
+});
+       // Setup plugin with default settings
+            $(document).ready(function() {
+
+                $.apScrollTop({
+                    'onInit': function(evt) {
+                        console.log('apScrollTop: init');
+                    }
+                });
+
+                // Add event listeners
+                $.apScrollTop().on('apstInit', function(evt) {
+                    console.log('apScrollTop: init');
+                });
+
+                $.apScrollTop().on('apstToggle', function(evt, details) {
+                    console.log('apScrollTop: toggle / is visible: ' + details.visible);
+                });
+
+                $.apScrollTop().on('apstCssClassesUpdated', function(evt) {
+                    console.log('apScrollTop: cssClassesUpdated');
+                });
+
+                $.apScrollTop().on('apstPositionUpdated', function(evt) {
+                    console.log('apScrollTop: positionUpdated');
+                });
+
+                $.apScrollTop().on('apstEnabled', function(evt) {
+                    console.log('apScrollTop: enabled');
+                });
+
+                $.apScrollTop().on('apstDisabled', function(evt) {
+                    console.log('apScrollTop: disabled');
+                });
+
+                $.apScrollTop().on('apstBeforeScrollTo', function(evt, details) {
+                    console.log('apScrollTop: beforeScrollTo / position: ' + details.position + ', speed: ' + details.speed);
+
+                    // You can return a single number here, which means that to this position
+                    // browser window scolls to
+                    /*
+                    return 100;
+                    */
+
+                    // .. or you can return an object, containing position and speed:
+                    /*
+                    return {
+                        position: 100,
+                        speed: 100
+                    };
+                    */
+
+                    // .. or do not return anything, so the default values are used to scroll
+                });
+
+                $.apScrollTop().on('apstScrolledTo', function(evt, details) {
+                    console.log('apScrollTop: scrolledTo / position: ' + details.position);
+                });
+
+                $.apScrollTop().on('apstDestroy', function(evt, details) {
+                    console.log('apScrollTop: destroy');
+                });
+
+            });
+
+
+            // Add change events for options
+            $('#option-enabled').on('change', function() {
+                var enabled = $(this).is(':checked');
+                $.apScrollTop('option', 'enabled', enabled);
+            });
+
+            $('#option-visibility-trigger').on('change', function() {
+                var value = $(this).val();
+                if (value == 'custom-function') {
+                    $.apScrollTop('option', 'visibilityTrigger', function(currentYPos) {
+                        var imagePosition = $('#image-for-custom-function').offset();
+                        return (currentYPos > imagePosition.top);
+                    });
+                }
+                else {
+                    $.apScrollTop('option', 'visibilityTrigger', parseInt(value));
+                }
+            });
+
+            $('#option-visibility-fade-speed').on('change', function() {
+                var value = parseInt($(this).val());
+                $.apScrollTop('option', 'visibilityFadeSpeed', value);
+            });
+
+            $('#option-scroll-speed').on('change', function() {
+                var value = parseInt($(this).val());
+                $.apScrollTop('option', 'scrollSpeed', value);
+            });
+
+            $('#option-position').on('change', function() {
+                var value = $(this).val();
+                $.apScrollTop('option', 'position', value);
+            });
+		</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+        
     </script>
     
 
