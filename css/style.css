@@ -380,7 +380,7 @@ figure {
   color: #fff;
 }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #1abc9c !important;
+  color: #79c34f !important;
 }
 
 #fh5co-menu-wrap {
@@ -1262,6 +1262,10 @@ h3.heading-section:before {
   }
 }
 
+#fh5co-services-section {
+    background-color: #ececec; 
+}
+
 #fh5co-footer {
   padding: 7em 0;
   float: left;
@@ -1500,6 +1504,35 @@ h3.heading-section:before {
 
 .apst-button:hover {
     background-color: #1abc9c !important;
+    }
+
+@media screen and (max-width: 480px) {
+
+    .grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #79c34f;
+    font-size: 0.7em;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #79c34f;
+	color: #fff;
+}
     }
 
 /*# sourceMappingURL=style.css.map */

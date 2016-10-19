@@ -15,12 +15,14 @@
 	font-weight: 900;
 	overflow: hidden;
 	line-height: 0.75;
-	color: #c5c2b8;
+	color: #fff;
 }
 
 .link--kukuri:hover {
 	color: #c5c2b8;
 }
+
+
 
 .link--kukuri::after {
 	content: '';

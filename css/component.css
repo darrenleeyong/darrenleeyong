@@ -1,5 +1,5 @@
 .grid {
-	padding: 20px 20px 100px 20px;
+	padding: 20px 20px 0px 20px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -32,7 +32,7 @@
 	left: 0;
 	padding: 20px;
 	background: #2c3f52;
-	color: #ed4e6e;
+	color: #79c34f;
 }
 
 .grid figcaption h3 {
@@ -52,7 +52,7 @@
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #ed4e6e;
+	background: #79c34f;
 	color: #fff;
 }
 
