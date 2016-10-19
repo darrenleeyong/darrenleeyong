@@ -13,17 +13,6 @@
 	<meta name="keywords" content="darren lee yong, entrepreneurship, graphic design, web design, html5, css3, mobile first, responsive" />
 	<meta name="author" content="DarrenLeeYong" />
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="images/logo.png">
 
@@ -88,6 +77,17 @@
 		<link rel="stylesheet" href="lib/css/ap-scroll-top.css" type="text/css" media="all" />
 		<script src="lib/js/ap-scroll-top.js"></script>
         
+<!--        TRANSFORMING TEXT-->
+        
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/linkstyles.css" />
+        
+<!--        HOVER BOXES-->
+        
+        		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <script src="js/toucheffects.js"></script>
         
 	</head>
 	
@@ -110,8 +110,9 @@
 				<div class="container">
 					<div class="nav-header">
 						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html">DARREN</a></h1>
-						<!-- START #fh5co-menu-wrap -->
+						<h1 id="fh5co-logo"><a href="index.html">DARREN LEE</a></h1>
+						
+                        <!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li class="active">
@@ -138,11 +139,17 @@
        
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" style="background-image: url(images/work-1.jpg);">
+			<div class="fh5co-cover text-center" style="background-image: url(images/work-4.png);">
 				<div class="desc animate-box">
-					<h2>DARREN LEE</h2>
-					<span>freelance web/graphic designer.</span>
-					<span><a class="btn btn-primary" href="#fh5co-about">COME ON IN</a></span>
+                    
+                   
+                    <a class="link link--kukuri" href="#fh5co-about" data-letters="デレーン リー"> DARREN LEE</a>
+                    
+                    <br><br>
+		
+					<span> web/graphic designer <small> デザイナー </small> </span>
+                    
+					<span><a class="btn btn-primary" href="#fh5co-about">ENTER （入る）</a></span>
 				</div>
 			</div>
 
@@ -157,15 +164,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 animate-box">
-                        <h2>ABOUT ME</h2>
+                        <h2>ABOUT ME 紹介する　</h2>
 						<figure>
 							<img src="images/about.jpg" alt="picture of me" class="img-responsive">
 						</figure>
 					</div>
 				
-				
 					<div class="col-md-6 animate-box" style="margin-top: 55px;">
-						<p>Hello. I am Darren, a 2nd year student of National University of Singapore, majoring in Communication and New Media. I am an energetic, positive and self-motivated individual, who strives to deliver quality work while paying high attention to detail. I am a firm believer in lifelong learning and enjoy using my creativity to come up with innovative ways to solve a myriad of problems. </p>
+						<p><b>Hello.</b> I am Darren, a 2nd year student of National University of Singapore, majoring in Communication & New Media. I am an energetic, positive and self-motivated individual, who strives to deliver quality work while paying high attention to detail. I am a firm believer in lifelong learning and enjoy using my creativity to come up with innovative ways to solve a myriad of problems. </p>
 					</div>
 
 				</div>
@@ -180,15 +186,16 @@
 		<div id="fh5co-work-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 animate-box">
-						<h3 class="heading-section">PROJECTS / PORTFOLIO</h3>
-						<p>These are some of my works! Click on the images to have a better look. Slides will redirect to presentation view. </p>
+					<div class="col-md-2 animate-box">
+						<h3 class="heading-section"> PROJECTS <br> プロジェクト</h3>
+						<p>These are some of my featured works! Click on the images to get a better look. </p>
                          
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-10">
                         
 						<div class="row">
                             
+<!--
 							<div class="col-md-4 col-sm-4">
 								<div class="fh5co-grid animate-box pop" style="background-image: url(images/logo.png);">
 									<a class="image-popup text-center">
@@ -211,12 +218,156 @@
 									</a>
 								</div>
 							</div>
+-->
                             
-                        </div>
+        
+
+                                
+                    <ul class="grid cs-style-2">
+				<li class="animate-box pop">
+					<figure>
+						<img src="images/darrenleeyongresume.jpg" alt="img02" style="width:100%; height:40%;">
+						<figcaption>
+							<h3>Creative Minimalist Resume </h3>
+							<span> Darren Lee  </span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                        
+				<li class="animate-box">
+					<figure>
+						<img src="images/rcynus1.png" alt="img04" style="width:200%; height:200%;">
+						<figcaption>
+							<h3>Functional Website </h3>
+							<span>Red Cross Youth NUS Chapter</span>
+							<a href="https://darrenleeyong.github.io/RCYNUSwebsite/" target="_blank">Take a look</a>
+						</figcaption>
+					</figure>
+				</li>
+                        
+                        <li class="animate-box pop">
+					<figure>
+						<img src="images/dingle.jpg" alt="img04">
+						<figcaption>
+							<h3>Logo and Business Card</h3>
+							<span>Dingle Tutors</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                        
+                        
+                        <li class="animate-box pop">
+					<figure>
+						<img src="images/cert1.png" alt="img04">
+						<figcaption>
+							<h3>Certificates of Completion</h3>
+							<span>The Archery Academy</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                        
+                            <ul class="grid cs-style-2">
+				<li class="animate-box">
+					<figure>
+						<img src="images/ges1028.png" alt="img02" style="width:100%; height:100%;">
+						<figcaption>
+							<h3>Presentation Slides</h3>
+							<span>GES1028 Singapore Society</span>
+                            <a href="https://docs.google.com/presentation/d/10AJcCCAskxq3rN3VIPhUlmVDgjdP_tj7C2MwkGRlCWs/edit?usp=sharing" target="_blank"> Take a look</a>
+						</figcaption>
+					</figure>
+				</li>
+                                
+                
+                <li class="animate-box">
+					<figure>
+						<img src="images/nm2103.png" alt="img02" style="width:100%; height:100%;">
+						<figcaption>
+							<h3>Presentation Slides</h3>
+							<span>NM2103 Quantative Methods</span>
+                            <a href="https://docs.google.com/presentation/d/1FKTXfUtV5F60BC_JUS8JKogmCGWiCzHloYsI1ssBMCg/edit?usp=sharing" target="_blank"> Take a look</a>
+						</figcaption>
+					</figure>
+				</li>
+                                
+                        
+				<li class="animate-box">
+					<figure>
+						<img src="images/psle.png" alt="img04" style="width:100%; height:100%;">
+						<figcaption>
+							<h3>Logo & FB cover</h3>
+							<span>Life after PSLE, NM1101 Project</span>
+							<a href="https://www.facebook.com/LifeAfterPSLE/?ref=aymt_homepage_panel" target="_blank">Take a look</a>
+						</figcaption>
+					</figure>
+				</li>
+                        
+                        <li class="animate-box pop">
+					<figure>
+						<img src="images/interactive%20global.png" alt="img04">
+						<figcaption>
+							<h3>Logo</h3>
+							<span>Interactive Global</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                        
+                        
+                        <li class="animate-box pop">
+					<figure>
+						<img src="images/shirt1.png" alt="img04">
+						<figcaption>
+							<h3>T-shirt design</h3>
+							<span>NUS exchange students</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+                             
+                            <li class="animate-box">
+					<figure>
+						<img src="images/gold1.png" alt="img04" style="width:100%; height:100%;">
+						<figcaption>
+							<h3>Logo & Prototype</h3>
+							<span>Gold - NewAge Hackathon</span>
+							<a href="https://projects.invisionapp.com/share/788F48IKF#/screens/184367734" target="_blank">Take a look</a>
+						</figcaption>
+					</figure>
+				</li>
+                                
+                           <li class="animate-box">
+					<figure>
+						<img src="images/percusso1.png" alt="img04" style="width:100%; height:100%;">
+						<figcaption>
+							<h3>Website/Interface</h3>
+							<span>Percusso - Hackfest Hackathon</span>
+							<a href=" http://bit.ly/2cP9MR8" target="_blank">Take a look</a>
+						</figcaption>
+					</figure>
+				</li>       
+      
+                                 <li class="animate-box pop">
+					<figure>
+						<img src="images/nm2208.png" alt="img04">
+						<figcaption>
+							<h3>Various designs</h3>
+							<span>NM2208 Visual Comm</span>
+							
+						</figcaption>
+					</figure>
+				</li>
+
+                        
+                        </ul>
+                </div>
 					</div>
                         
                     
-                    
+<!--
                     <div class="col-md-12 animate-box">        
                         <div class="row">
 							<div class="col-md-6 col-sm-6">
@@ -398,6 +549,7 @@
 
                             </div>
                         </div>
+-->
                             
 						
 				</div>

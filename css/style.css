@@ -118,6 +118,7 @@ figure {
   }
 }
 
+
 .fh5co-overlay {
   position: absolute !important;
   width: 100%;
@@ -379,7 +380,7 @@ figure {
   color: #fff;
 }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: #fff !important;
+  color: #1abc9c !important;
 }
 
 #fh5co-menu-wrap {
