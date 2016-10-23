@@ -70,18 +70,6 @@
 
 	}
 
-	// Superfish Sub Menu Click ( Mobiles/Tablets )
-	var mobileClickSubMenus = function() {
-
-		$('body').on('click', '.fh5co-sub-ddown', function(event) {
-			event.preventDefault();
-			var $this = $(this),
-				li = $this.closest('li');
-			li.find('> .fh5co-sub-menu').slideToggle(200);
-		});
-
-	};
-
 
 	// Animations
 
