@@ -182,7 +182,8 @@
 <!------------------------------------------------------------------------------------*/
 	PROJECTS/PORTFOLIO SECTION
 /*------------------------------------------------------------------------------------->            
-            
+         
+
             
 		<div id="fh5co-work-section">
 			<div class="container">
@@ -675,7 +676,9 @@ $(function() {
                 var value = $(this).val();
                 $.apScrollTop('option', 'position', value);
             });
-		</script><script type="text/javascript">
+		</script>
+    
+    <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36251023-1']);
@@ -702,6 +705,27 @@ $(function() {
 </script>
     
     
+    
+    
+    <script> 
+    // Add no-touch class to body for mobile touch events and toggle hover class on elements that need it
+	if ("ontouchstart" in document.documentElement) {
+		document.documentElement.className += " touch";
+	}
+	
+	// Add and remove no-hover class to <li>'s for mobile hover events
+	jQuery('.touch .container').each(function() {
+		var div = jQuery(this);
+		
+		div.hover(function() {
+			div.removeClass('no-hover');
+		});
+		
+		jQuery('*').not(div).bind('click', function() {
+			div.addClass('no-hover');
+		});
+		
+	});
     </script>
     
 

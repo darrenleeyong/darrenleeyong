@@ -138,6 +138,16 @@
 	transform: translateY(-90px);
 }
 
+.animate-box:hover li,
+.animate-box li:hover {
+	display: block;	
+}
+
+/* jQuery enabled behavior for mobile */
+.touch .container.no-hover .details {
+	display: none !important;	
+}
+
 
 /* Caption Style 3 */
 .cs-style-3 figure {
