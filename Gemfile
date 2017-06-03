@@ -1,8 +1,11 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem 'github-pages'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
+gem 'github-pages', versions['github-pages']
 gem "jekyll"
 gem "minima", "~> 2.0"
 gem "jekyll-sitemap"
