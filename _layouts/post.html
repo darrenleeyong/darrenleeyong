@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include head.html %}
+    {% include header.html %}
+
+  <body class="smooth-transition">
+    <div class="container-fluid">       
+
+{% capture readtime %}{{ page.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
+
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-meta">
+                    {{ page.date | date_to_string }} &bull;
+                    {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read &bull;
+                    <a href="#disqus" data-disqus-identifier="{{ page.path | split:'/' | last | cgi_escape }}">Comments</a>
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+
+              <div class="row">
+                <div class="col-md-10">
+                  {{ content }}
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="pagination">
+
+                      {% if page.previous.url %}
+                        <a class=" prev previous ion-ios-arrow-thin-left pull-left"  href="{{page.previous.url}}"></a>        
+                      {% else %}
+                        <span class=" prev disabled previous ion-ios-arrow-thin-left pull-left"></span>
+                      {% endif %}
+
+                       <a href="/blog/" class="btn btn-default active">Back to Blog</a>
+                      
+                      {% if page.next.url %}
+                        <a class="next next ion-ios-arrow-thin-right pull-right" href="{{page.next.url}}"></a>
+                      {% endif %}
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+                <p>Believing in smart ideas and branding experiences. Good design is as less design as possible.</p>
+                
+                <div class="mt-lg">
+                  <h3>Recent posts</h3>
+                  <ul class="item-list">
+                    {% for post in site.posts %}
+                     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor post %}
+                  </ul>
+                </div>
+
+                <!--<div class="mt-xl">
+                  <h3>Archives</h3>
+                  <ul class="item-list">
+                    <li><a href="#">July 2016</a></li>
+                    <li><a href="#">June 2016</a></li>
+                    <li><a href="#">May 2016</a></li>
+                    <li><a href="#">April 2016</a></li>
+                    <li><a href="#">March 2016</a></li>
+                  </ul>
+                </div>-->
+
+            </div>
+          </div>
+
+          
+          <div id="disqus_thread"></div>
+          </div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://darrensdesign.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+
+          <!--<div class="row">
+            <div class="col-md-6 mt-xl">
+              <h3>Comments</h3>
+              <div class="comments col-md-11">
+                <div class="comment"><a href="#reply"><span>Reply</span><span class="fa fa-reply"></span></a>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="thumb rounded"><img alt="Your Alternative text" src="../images/blog/single/avatar-01.png"></div>
+                    </div>
+                    <div class="content col-md-10">
+                      <div class="details">
+                        <h4>Shameen</h4>
+                        <div class="date">June 13 2016</div>
+                      </div>
+                      <div class="message">
+                        <p>Many people sign up for affiliate programs with the hopes of making some serious money. They advertise a few places and then wait for the money to start pouring in. When it doesn’t, they blame it on the program and quit.</p>
+                      </div>
+                      <div class="comment"><a href="#reply"><span>Reply</span><span class="fa fa-reply"></span></a>
+                        <div class="row">
+                          <div class="col-md-2">
+                            <div class="thumb xs rounded"><img alt="Your Alternative text" src="../images/blog/single/avatar-02.png"></div>
+                          </div>
+                          <div class="content col-md-10">
+                            <div class="details">
+                              <h4>Henry</h4>
+                              <div class="date">June 13 2016</div>
+                            </div>
+                            <div class="message">
+                              <p>Many people sign up for affiliate programs with the hopes of making some serious money. They advertise a few places and then wait for the money to start pouring in. When it doesn’t, they blame it on the program and quit.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment"><a href="#reply"><span>Reply</span><span class="fa fa-reply"></span></a>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="thumb rounded"><img alt="Your Alternative text" src="../images/blog/single/avatar-03.png"></div>
+                    </div>
+                    <div class="content col-md-10">
+                      <div class="details">
+                        <h4>Jake</h4>
+                        <div class="date">June 13 2016</div>
+                      </div>
+                      <div class="message">
+                        <p>Many people sign up for affiliate programs with the hopes of making some serious money. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment"><a href="#reply"><span>Reply</span><span class="fa fa-reply"></span></a>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="thumb rounded"><img alt="Your Alternative text" src="../images/blog/single/avatar-04.png"></div>
+                    </div>
+                    <div class="content col-md-10">
+                      <div class="details">
+                        <h4>Root</h4>
+                        <div class="date">June 13 2016</div>
+                      </div>
+                      <div class="message">
+                        <p>Many people sign up for affiliate programs with the hopes of making some serious money. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-xl">
+              <h3>Leave a comment</h3>
+              <form class="form row mt-lg">
+                <div class="col-md-6">
+                  <div class="tag">What's your name? *</div>
+                  <input required type="text" name="name" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <div class="tag">E-mail address *</div>
+                  <input required type="email" name="email" class="form-control">
+                </div>
+                <div class="col-md-12">
+                  <div class="tag">Your comment *</div>
+                  <textarea required name="message" class="form-control"></textarea>
+                  <button id="send" type="submit" class="btn btn-default">Send message</button><span class="p-md">* These fields are required            </span>
+                </div>
+              </form>
+            </div>-->
+
+            </div>
+        </div>
+      </section>
+      
+    {% include footer.html %}
+    {% include anchor_links.html %}
+
+  </body>
+</html>
+
+
+
+    
+
