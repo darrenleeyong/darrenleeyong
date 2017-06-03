@@ -1,0 +1,56 @@
+title: Darren's Design
+email: info@darrensdesign.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://darrensdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: iamdarrenly
+github_username:  darrenleeyong
+future: true
+excerpt_separator: '---'
+
+sass:
+    style: compressed
+collections:
+    docs: {output: true, permalink: '/docs/:path/'}
+    portfolio: {output: true, permalink: '/portfolio/:path/'}
+defaults:
+    - {scope: {type: docs}, values: {layout: docs}}
+    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}
+    - {scope: {path: ""}, values: {image: {path: /images/opengraph.png, width: 1200, height: 630}}}
+exclude:
+    - node_modules
+    - README.md
+    - LICENSE.md
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - Gruntfile.js
+    - package.json
+    - script
+    - spec
+include:
+    - _pages
+    - .htaccess
+twitter:
+    username: iamdarrenly
+logo: /images/opengraph.png
+
+paginate: 4
+paginate_path: "/blog/page:num/"
+permalink:     '/blog/:year/:title/'
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-paginate
+    - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
