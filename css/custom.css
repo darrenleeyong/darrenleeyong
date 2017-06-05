@@ -26,3 +26,23 @@
 .header-logo {
     height: 50px;
 }
+
+.about-image {
+    max-height: 300px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.index-hero {
+    font-size: 160px;
+    font-weight: 550;
+}
+
+@media screen and (max-width: 768px) {
+    .index-hero {
+        font-size: 100px;
+        font-weight: 550;
+    }
+}
