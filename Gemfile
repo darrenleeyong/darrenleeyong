@@ -13,6 +13,8 @@ gem "pygments.rb"
 gem "redcarpet"
 gem "jekyll-seo-tag"
 gem "jekyll-paginate"
+gem 'openssl', '>=2.0.3'
+
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"

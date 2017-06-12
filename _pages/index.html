@@ -13,15 +13,14 @@ excerpt: Showing you my latest works.
                 <span class='index-hero'>D</span>arren's<br>
                 <span class='index-hero'>D</span>esign</h1>
             </div>
-
-            <img alt="Header" src="images/portfolio/landing.jpg" class="index-image mb-20">
-            <p>Believing in smart ideas and branding experiences. <br> Good design is as less design as possible. </p>
-
+             <p>Believing in smart ideas and branding experiences. <br> Good design is as less design as possible. </p>
+           <img alt="Header" src="images/portfolio/landing.jpg" class="index-image mb-sm">
+           
           </div>
         </div>
       </section>
 
-      <section class="grid-container">
+      <section class="grid-container mb-md">
         <div class="container">
           <div class="row">
             <div class="col-md-12"><a href="#" class="btn btn-default filter-trigger">Filter</a></div>
@@ -30,7 +29,7 @@ excerpt: Showing you my latest works.
             
              {% for portfolio in site.portfolio %}
              <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }}">
-               <div class="thumb"><img alt="{{ portfolio.imageAlt }}" src="{{ portfolio.imageURL }}"></div>
+               <div class="thumb"><img class="portfolio-image" alt="{{ portfolio.imagealt }}" src="{{ portfolio.imageurl }}"></div>
                 <div class="caption">
                   <h4> {{ portfolio.title }}</h4>
                   <div class="tag"> {{ portfolio.description }} </div>

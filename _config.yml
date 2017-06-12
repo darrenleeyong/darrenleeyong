@@ -31,6 +31,7 @@ exclude:
     - package.json
     - script
     - spec
+    - _drafts
 include:
     - _pages
     - .htaccess

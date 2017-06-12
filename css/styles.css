@@ -141,10 +141,10 @@ ul.navigation li a {
   padding: 15px 0;
   margin: 0 13px;
   color: #333;
-  font-family: "Playfair Display", "Times New Roman", serif;
+  font-family: "Heebo", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 650;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
   -webkit-transition: all .3s;
   transition: all .3s;
 }

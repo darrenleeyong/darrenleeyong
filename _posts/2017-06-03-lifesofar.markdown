@@ -1,10 +1,16 @@
 ---
 layout:  post
 title:   Life So Far
-tags:    osx asepsis ds_store el capitan
 date:   2017-06-03 22:02:38 -0700
 categories: entries
 displayImage: /images/blog/01.jpg
+heroImage: /images/blog/single/01.jpg
+tags:    
+- life 
+- bay area 
+- silicon valley 
+- design 
+- darren
 
 ---
 
