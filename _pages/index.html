@@ -2,55 +2,149 @@
 title: Darren's Design
 permalink: /
 layout: default
-excerpt: Showing you my latest works.
+excerpt: About me.
 
 ---
-      <section class="hero text-center">
+      <section class="hero">
         <div class="container">
-          <div class="row">
-            <div class="row">
-                <h1>
-                <span class='index-hero'>D</span>arren's<br>
-                <span class='index-hero'>D</span>esign</h1>
+          
+           
+            <div class="col-md-8 col-md-offset-2 mb-md">                
+                <div class="index-title-sub"> 
+                   <div class="">
+              <h1 class="landing-title">
+                <a href="http://linkedin.com/in/darrenleeyong" target="_blank" class="link link--yaku">
+                <span>D</span><span>a</span><span>r</span><span>r</span><span>e</span><span>n</span>
+                <span class="fa fa-user-o">L</span><span>e</span><span>e</span>					
+              </a>
+              </h1>
             </div>
-             <p>Believing in smart ideas and branding experiences. <br> Good design is as less design as possible. </p>
+
+                  <span class="landing-title-description">
+                      Creative Designer, 
+                      <br> born and raised in Singapore, <br>
+                      currently living and working in the Bay Area at <a href="http://archsys.io" target="_blank" class="link-no-ul">Arch Systems</a>. 
+                  </span>
+                </div>
+            </div>
            <img alt="Header" src="images/portfolio/landing.jpg" class="index-image mb-sm">
            
-          </div>
+         
         </div>
       </section>
 
-      <section class="grid-container mb-md">
+<section>
+      <section class="content">
         <div class="container">
           <div class="row">
-            <div class="col-md-12"><a href="#" class="btn btn-default filter-trigger">Filter</a></div>
 
-            <div class="col-md-12 grid classic">
-            
-             {% for portfolio in site.portfolio %}
-             <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }}">
-               <div class="thumb"><img class="portfolio-image" alt="{{ portfolio.imagealt }}" src="{{ portfolio.imageurl }}"></div>
-                <div class="caption">
-                  <h4> {{ portfolio.title }}</h4>
-                  <div class="tag"> {{ portfolio.description }} </div>
-                </div></a>
-            {% endfor portfolio %}
-
+            <div class="col-md-9">
+              <div class="box">
+                <h4>Who is</h4>
+                <h1>Darren Lee?</h1>
+                <p> I'm an undergraduate student of National University of Singapore in my sophomore year. 
+                  My major is Communications and New Media (CNM) and specialising in design.
+                  </p>
               </div>
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="col-md-6"><img src="/images/portfolio/single-06.jpg" class="fadein">
+            <div class="box pb-0">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="box pt-0">
+              
+            </div><img src="/images/portfolio/single-07.jpg" class="fadein">
+          </div>
+        </div>
+
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="box">
+                <h4>Why Design?</h4>
+                <h1>Design is more than just 'art'.</h1>
+                <p>I get to express my creativity and 'create'.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-12 gray-bg mb-lg vcenter">
+              <div class="col-md-6 col-sm-12"><img src="../images/about/skydive.gif" class="fadein"></div>
+              <div class="col-md-6 col-sm-12 text-center p-md">
+                <h3>Skydiving in Hollister, CA</h3>
+                <p>First time jumping off a plane 8,000 feet high</p>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="container">
+          <div class="row mt-xl">
+            <div class="col-md-3 text-center">
+              <h4 class="underline">Strategy</h4>
+              <ul class="label-list">
+                <li>Branding Strategy</li>
+                <li>Concept Brainstorm</li>
+                <li>Process Architecture</li>
+                <li>Design Strategy</li>
+                <li>Marketing</li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-center">
+              <h4 class="underline">Branding</h4>
+              <ul class="label-list">
+                <li>Creative Process</li>
+                <li>Exploration</li>
+                <li>Field Research</li>
+                <li>Branding Strategy</li>
+                <li>Visual Identity</li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-center">
+              <h4 class="underline">Design</h4>
+              <ul class="label-list">
+                <li>Concept Design</li>
+                <li>User Interfaces</li>
+                <li>User-Experience Design</li>
+                <li>Visual Identity</li>
+                <li>Wireframes</li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-center">
+              <h4 class="underline"> Web </h4>
+              <ul class="label-list">
+                <li>Frontend Development</li>
+                <li>Architecture</li>
+                <li>Search Engine Optimisation  </li>
+                <li> Jekyll sites </li>
+                <li> Wordpress integration </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
-      <div class="filter-container">
-        <div class="container">
-          <div class="inner">
-            <ul class="filters">
-              <li> <a href="#" data-filter="item" class="active filter">All</a></li>
-              <li><a href="#" data-filter="design" class="filter">Design</a></li>
-              <li><a href="#" data-filter="typography" class="filter">Typography</a></li>
-              <li><a href="#" data-filter="webdesign" class="filter">Web Design</a></li>
-              <li><a href="#" data-filter="books" class="filter">Books</a></li>
-            </ul>
-          </div>
+      <section class="content">
+        <div class="container text-center">
+          <div class="row mt-xl">
+            <div class="col-md-6 col-md-offset-3 mb-md">
+              <h3>I have a lot of <span class="italic">happy</span> clients</h3>
+              <a href="/contact"><h3>So lets make <span class="italic">you</span> happy</h3></a>
+            </div>
+          </div> 
         </div>
-      </div>
+         
+      </section>
+</section>

@@ -1,22 +1,17 @@
-/*-------------------------------
+.landing-title {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    text-align: center;
+}
 
-    Custom stylesheet (custom.css)
+.landing-title a:hover{
+    text-decoration: none;
+}
 
-    Project: Eight Template
-    Version: 1.0
-    Author: By Themanoid
-    Last change: 31 July 2016
-
-    --
-
-    This stylesheet is meant for
-    your own custom styles, on
-    top of The Eight Template
-
-    Happy styling!
-    - Themanoid
-
-----------------------------*/
+.landing-title-description {
+    font-family: "VisbyCF-Light", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.7em;
+}
 
 .index-image {
     width:100%;
@@ -31,47 +26,28 @@
     max-height: 300px;
 }
 
-.mb-20 {
-    margin-bottom: 20px;
+.index-title {
+    margin-bottom: 20px !important;
 }
 
-.mb-40 {
-    margin-bottom: 40px;
+.index-title-sub {
+    font-family: "Playfair Display", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
 }
 
-.mb-60 {
-    margin-bottom: 60px;
-}
-
-.mb-60 {
-    margin-bottom: 20px;
-}
-
-.mt-20 {
-    margin-top: 20px;
-}
-
-.mt-40 {
-    margin-top: 40px;
-}
-
-.mt-60 {
-    margin-top: 60px;
-}
-
-.index-hero {
-    font-size: 100px;
-    font-weight: 550;
+.link-no-ul {
+    color: #63ace5;
 }
 
 @media screen and (max-width: 768px) {
-    .index-hero {
-        font-size: 60px;
-        font-weight: 550;
+    .portfolio-image {
+        max-height: 160px;
+    }   
+    .index-title-sub {
+        font-size: 20px;
     }
 }
 
 .portfolio-image {
-    max-width: 600px;
-    max-height: 280px;
+    height: 280px;
 }
