@@ -51,7 +51,7 @@ permalink:     '/blog/:year/:title/'
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
     - jekyll-paginate
