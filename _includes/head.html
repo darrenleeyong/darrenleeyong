@@ -17,6 +17,24 @@
       {% seo %}
      {% feed_meta %}
 
+    <meta name="language" content="english">
+    <meta name="description" content="{% if page.metadescription == "" or page.metadescription == nil or page.metadescription == blank  %} Darren Lee, Full Stack UX {% endif %}{{page.metadescription}}">
+    <link rel="canonical" content="https://archsys.io" />
+    <meta name="author" content="{% if page.metaauthor == "" or page.metaauthor == nil or page.metaauthor == blank  %} Darren Lee, Full Stack UX {% endif %}  {{page.metaauthor}} ">
+    <meta name="keywords" content=" {% if page.metakeyword == "" or page.metakeyword == nil or page.metakeyword == blank  %} Fullstack UX, UI/UX, Design, Designer, Darren, Lee, Darren Lee, {% endif %}  {{page.metakeyword}}  ">
+    <link rel="alternate" href="https://archsys.io" hreflang="en-us" />
+
+    <meta property="og:site_name" content="{% if page.ogmetaauthor == "" or page.ogmetaauthor == nil or page.ogmetaauthor == blank  %} Darren Lee {% endif %} {{page.ogmetaauthor}}" />
+    <meta property="og:type" content="{% if page.ogmetatype == "" or page.ogmetatype == nil or page.ogmetatype == blank  %} article {% endif %} {{page.ogmetatype}}" />
+    <meta property="og:title" content="{% if page.ogmetatitle == "" or page.ogmetatitle == nil or page.ogmetatitle == blank  %} Darren Lee, Full Stack UX {% endif %} {{page.ogmetatitle}}" />
+    <meta property="og:description" content="{% if page.ogmetadescription == "" or page.ogmetadescription == nil or page.ogmetadescription == blank  %}  text here {% endif %} {{page.ogmetadescription}}"/>
+    <meta property="og:image" content="{% if page.ogmetaimage == "" or page.ogmetaimage == nil or page.ogmetaimage == blank  %} https://darrensdesign.com/images/about/pinkwall.jpg {% endif %} {{page.ogmetaimage}}" />
+    <meta property="fb:admins" content="163038834147388" />
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#026FB5">
+
     <link rel="icon" type="/image/png" href="/favicon.png?version=1">
     <script src="/js/assets/jquery.js"></script>
 
