@@ -91,7 +91,7 @@ header .ion-ios-search-strong {
   font-size: 11px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .search .form-control:focus {
@@ -396,7 +396,7 @@ ul.navigation li:hover ul.dropdown {
 }
 
 .grid.masonry .item .caption .tag {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -496,7 +496,7 @@ ul.navigation li:hover ul.dropdown {
 .grid.classic .item .caption .tag {
   color: #555;
   font-weight: 300;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -793,7 +793,7 @@ aside:before {
 }
 
 .comments .comment .details .date {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -823,7 +823,7 @@ aside:before {
 .btn {
   border-radius: 0;
   border: 0;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -910,7 +910,7 @@ footer.bottom a {
   color: #555;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -923,7 +923,7 @@ footer.bottom a {
   height: auto;
   font-size: 16px;
   margin-bottom: 20px;
-  font-family: "Playfair Display", "Times New Roman", serif;
+  font-family: "AddingtonCF", "Times New Roman", serif;
 }
 
 .form .form-control:focus {
@@ -963,7 +963,7 @@ footer.bottom a {
   font-weight: 400;
   font-size: 1em;
   margin: 0 2px 0 0;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -1017,7 +1017,7 @@ ul.item-list li a, ul.item-list li span {
   text-decoration: none;
   -webkit-transition: all .3s;
   transition: all .3s;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
