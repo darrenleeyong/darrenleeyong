@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 46 45" xml:space="preserve">
-<g id="Group">
-	<path id="Rectangle-5" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M0,0h46v18.9V45H0V0z"/>
-</g>
-<rect x="4.6" y="5.2" fill="none" width="27.2" height="21.4"/>
-<rect x="25.6" y="20.5" fill="none" width="16.7" height="20.6"/>
-<g>
-	<path d="M35.8,38.6v0.3h-9.9v-3.3c-0.9,2.6-2.6,4.3-5.1,4.3c-5.3,0-9.4-4.5-9.4-11.9c0-7.4,4.7-12.1,9.5-12.1
-		c2.1,0,4.2,1.1,5.1,3.6V5.4h-3.8V5.1H32v33.5H35.8z M25.9,34.7V20.6c-0.6-2.6-2.5-4.3-4.3-4.3c-2.9,0-4.2,3-4.2,11.7
-		c0,8.6,1.1,11.4,4,11.4C23.5,39.4,25.2,37.4,25.9,34.7z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#1a1a1a;}</style></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M143.78,221.86c0,38.72,18,64.35,45.27,64.35,16.91,0,34.36-7.09,45.27-18.54V173.87C223.41,164.05,206,158.05,189,158.05,161.78,158.05,143.78,183.69,143.78,221.86Z"/><path class="cls-1" d="M178.14,95.88c18.54,0,38.72,6.54,56.17,18V0H0V300H85.54c-14.07-20.59-21.93-47.21-21.93-78.14C63.61,147.69,109.42,95.88,178.14,95.88Z"/><path class="cls-2" d="M300,0H234.32V113.88c-17.45-11.45-37.63-18-56.17-18-68.72,0-114.53,51.81-114.53,126,0,30.93,7.85,57.55,21.93,78.14H300ZM234.32,267.67C223.41,279.13,206,286.22,189,286.22c-27.27,0-45.27-25.63-45.27-64.35,0-38.18,18-63.81,45.27-63.81,16.91,0,34.36,6,45.27,15.82Z"/></g></g></svg>

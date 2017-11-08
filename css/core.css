@@ -16659,11 +16659,11 @@ body.no-lines .l1, body.no-lines .l2, body.no-lines .l3 {
 */
 body {
   color: #333;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Addington", "Playfair Display", "Times New Roman", serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Playfair Display", "Times New Roman", serif;
+  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 h1.underline:after, h2.underline:after, h3.underline:after, h4.underline:after {
