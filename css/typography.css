@@ -23,141 +23,141 @@
 
 /*Thin*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Thin';
 	src:url('../fonts/VisbyCF/VisbyCF-Thin.eot');
     src:url('../fonts/VisbyCF/VisbyCF-Thin.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-Thin.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-Thin.ttf') format('truetype');	
-    font-weight: 100;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Thin';
 	src:url('../fonts/VisbyCF/VisbyCF-ThinOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-ThinOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-ThinOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-ThinOblique.ttf') format('truetype');	
-    font-weight: 100;
+    font-weight: normal;
     font-style: italic;
 }
 
 /*Light*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Light';
 	src:url('../fonts/VisbyCF/VisbyCF-Light.eot');
     src:url('../fonts/VisbyCF/VisbyCF-Light.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-Light.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-Light.ttf') format('truetype');	
-    font-weight: 200;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Light';
 	src:url('../fonts/VisbyCF/VisbyCF-LightOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-LightOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-LightOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-LightOblique.ttf') format('truetype');	
-    font-weight: 200;
+    font-weight: normal;
     font-style: italic;
 }
 
 /*Medium*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Medium';
 	src:url('../fonts/VisbyCF/VisbyCF-Medium.eot');
     src:url('../fonts/VisbyCF/VisbyCF-Medium.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-Medium.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-Medium.ttf') format('truetype');	
-    font-weight: 500;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Medium';
 	src:url('../fonts/VisbyCF/VisbyCF-MediumOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-MediumOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-MediumOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-MediumOblique.ttf') format('truetype');	
-    font-weight: 500;
+    font-weight: normal;
     font-style: italic;
 }
 
 /*DemiBold*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Demibold';
 	src:url('../fonts/VisbyCF/VisbyCF-DemiBold.eot');
     src:url('../fonts/VisbyCF/VisbyCF-DemiBold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-DemiBold.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-DemiBold.ttf') format('truetype');	
-    font-weight: 600;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Demibold';
 	src:url('../fonts/VisbyCF/VisbyCF-DemiBoldOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-DemiBoldOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-DemiBoldOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-DemiBoldOblique.ttf') format('truetype');	
-    font-weight: 600;
+    font-weight: normal;
     font-style: italic;
 }
 
 /*Bold*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Bold';
 	src:url('../fonts/VisbyCF/VisbyCF-Bold.eot');
     src:url('../fonts/VisbyCF/VisbyCF-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-Bold.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-Bold.ttf') format('truetype');	
-    font-weight: 700;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Bold';
 	src:url('../fonts/VisbyCF/VisbyCF-BoldOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-BoldOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-BoldOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-BoldOblique.ttf') format('truetype');	
-    font-weight: 700;
+    font-weight: normal;
     font-style: italic;
 }
 
 /*ExtraBold*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Extrabold';
 	src:url('../fonts/VisbyCF/VisbyCF-ExtraBold.eot');
     src:url('../fonts/VisbyCF/VisbyCF-ExtraBold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-ExtraBold.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-ExtraBold.ttf') format('truetype');	
-    font-weight: 800;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Extrabold';
 	src:url('../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-ExtraBoldOblique.ttf') format('truetype');	
-    font-weight: 800;
+    font-weight: normal;
     font-style: italic;
 }
 
 /*Heavy*/
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Heavy';
 	src:url('../fonts/VisbyCF/VisbyCF-Heavy.eot');
     src:url('../fonts/VisbyCF/VisbyCF-Heavy.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-Heavy.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-Heavy.ttf') format('truetype');	
-    font-weight: 900;
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'VisbyCF';
+	font-family: 'VisbyCF-Heavy';
 	src:url('../fonts/VisbyCF/VisbyCF-HeavyOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-HeavyOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-HeavyOblique.woff') format('woff'),
     url('../fonts/VisbyCF/VisbyCF-HeavyOblique.ttf') format('truetype');	
-    font-weight: 900;
+    font-weight: normal;
     font-style: italic;
 }
 
@@ -179,69 +179,69 @@
 
 /*Thin*/
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Thin';
 	src:url('../fonts/AddingtonCF/AddingtonCF-Thin.ttf');
-    font-weight:lighter;	
+    font-weight:normal;	
 }
 
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Thin';
 	src:url('../fonts/AddingtonCF/AddingtonCF-ThinItalic.ttf');
-    font-weight:lighter;
+    font-weight:normal;
     font-style: italic;	
 }
 
 /*Light*/
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Light';
 	src:url('../fonts/AddingtonCF/AddingtonCF-Light.ttf');
-    font-weight:300;	
+    font-weight: normal;	
 }
 
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Light';
 	src:url('../fonts/AddingtonCF/AddingtonCF-LightItalic.ttf');
-    font-weight:300;
+    font-weight: normal;
     font-style: italic;	
 }
 
 /*Medium*/
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Medium';
 	src:url('../fonts/AddingtonCF/AddingtonCF-Medium.ttf');
-    font-weight:500;	
+    font-weight: normal;	
 }
 
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Medium';
 	src:url('../fonts/AddingtonCF/AddingtonCF-MediumItalic.ttf');
-    font-weight: 500;
+    font-weight: normal;
     font-style: italic;	
 }
 
-/*Demi-Bold*/
+/*DemiBold*/
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Demibold';
 	src:url('../fonts/AddingtonCF/AddingtonCF-DemiBold.ttf');
-    font-weight:600;	
+    font-weight: normal;	
 }
 
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Demibold';
 	src:url('../fonts/AddingtonCF/AddingtonCF-DemiBoldItalic.ttf');
-    font-weight:600;
+    font-weight: normal;
     font-style: italic;	
 }
 
 /*Bold*/
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Bold';
 	src:url('../fonts/AddingtonCF/AddingtonCF-Bold.ttf');
     font-weight:bold;	
 }
 
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Bold';
 	src:url('../fonts/AddingtonCF/AddingtonCF-BoldItalic.ttf');
     font-weight:bold;
     font-style: italic;	
@@ -250,14 +250,14 @@
 
 /*ExtraBold*/
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Extrabold';
 	src:url('../fonts/AddingtonCF/AddingtonCF-ExtraBold.ttf');
-    font-weight:800;	
+    font-weight: normal;	
 }
 
 @font-face {
-	font-family: 'AddingtonCF';
+	font-family: 'AddingtonCF-Extrabold';
 	src:url('../fonts/AddingtonCF/AddingtonCF-ExtraBoldItalic.ttf');
-    font-weight:800;
+    font-weight: normal;
     font-style: italic;	
 }
