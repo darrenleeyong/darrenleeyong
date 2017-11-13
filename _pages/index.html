@@ -40,7 +40,7 @@ excerpt: About me.
                    <br> Combining data-driven methodologies, creativity, and a user-centered approach into problem-solving, I develop an understanding of the product without going through the pain of building it. 
                   <br>
                   <br>Currently working in the Bay Area, at <a href="http://archsys.io" target="_blank" class="link-no-ul">Arch Systems</a>.
-                  <br>Seeking <a href="/contact/" target="_blank" class="link-no-ul"> internship (Q2 2018)</a>.         
+                  <br>Seeking <a href="/contact/" target="_blank" class="link-no-ul"> internship (Summer-End 2018)</a>.         
                 
                   </p>
 
@@ -59,7 +59,7 @@ excerpt: About me.
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3">
-              <h1>Portfolio</h1>
+              <h1 id="portfolio">Portfolio</h1>
               <p>My latest projects<br></p>
             </div>
           </div>
@@ -115,3 +115,10 @@ excerpt: About me.
 </div>
 
  <script>$(function(){$(".typed").typed({strings: ["Creative","Web","Branding","UX/UI","Full Stack"],typeSpeed: 150,loop: true  });});</script>
+
+ <script>
+function portfolioScroll() {
+    var elmnt = document.getElementById("content");
+    elmnt.scrollIntoView();
+}
+</script>

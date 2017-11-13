@@ -25,7 +25,8 @@
         inDuration            :    1500,
         outDuration           :    800,
         linkElement           :   '.animsition-link',
-        // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+        // linkElement   :   'a:not([target="_blank"]):not([href^="#portfolio"])',
+        // linkElement: '.animsition-link, a[href]:not([href^="#portfolio"])',
         loading               :    true,
         loadingParentElement  :   'body', //animsition wrapper element
         loadingClass          :   'animsition-loading',

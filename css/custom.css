@@ -51,3 +51,9 @@
 .portfolio-image {
     height: 280px;
 }
+
+footer {
+  color: #555;
+  font-family: "VisbyCF-Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+}

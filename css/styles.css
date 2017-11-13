@@ -91,7 +91,7 @@ header .ion-ios-search-strong {
   font-size: 11px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .search .form-control:focus {
@@ -141,7 +141,7 @@ ul.navigation li a {
   padding: 15px 0;
   margin: 0 13px;
   color: #333;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold !important;
   -webkit-transition: all .3s;
@@ -396,7 +396,7 @@ ul.navigation li:hover ul.dropdown {
 }
 
 .grid.masonry .item .caption .tag {
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -496,8 +496,8 @@ ul.navigation li:hover ul.dropdown {
 .grid.classic .item .caption .tag {
   color: #555;
   font-weight: 300;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 13px;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .grid.classic .item:hover h3, .grid.classic .item:hover h4 {
@@ -793,7 +793,7 @@ aside:before {
 }
 
 .comments .comment .details .date {
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -823,7 +823,7 @@ aside:before {
 .btn {
   border-radius: 0;
   border: 0;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -910,7 +910,7 @@ footer.bottom a {
   color: #555;
   font-weight: 400;
   margin-bottom: 10px;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -963,8 +963,8 @@ footer.bottom a {
   font-weight: 400;
   font-size: 1em;
   margin: 0 2px 0 0;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 12px;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .label:hover {
@@ -1017,7 +1017,7 @@ ul.item-list li a, ul.item-list li span {
   text-decoration: none;
   -webkit-transition: all .3s;
   transition: all .3s;
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
 }

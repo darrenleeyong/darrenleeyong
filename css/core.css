@@ -1408,11 +1408,16 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Addington-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
   background-color: #fff;
+}
+
+body li {
+  font-size: 18px;
+  line-height: 1.42857;
 }
 
 input,
@@ -14163,7 +14168,7 @@ button.close {
 .smooth-transition,
 .animsition-overlay {
   position: relative;
-  opacity: 0;
+  opacity: 0;*/
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -16659,11 +16664,11 @@ body.no-lines .l1, body.no-lines .l2, body.no-lines .l3 {
 */
 body {
   color: #333;
-  font-family: "AddingtonCF", "Playfair Display", "Times New Roman", serif;
+  font-family: "AddingtonCF-Light", "Playfair Display", "Times New Roman", serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: "VisbyCF", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "VisbyCF-Bold", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 h1.underline:after, h2.underline:after, h3.underline:after, h4.underline:after {
@@ -16712,14 +16717,14 @@ h6 {
 
 p {
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1.4em;
   line-height: 1.6;
   color: #555;
   margin-bottom: 30px;
 }
 
 p.large {
-  font-size: 1.4em;
+  font-size: 1.6em;
   color: #000;
 }
 
