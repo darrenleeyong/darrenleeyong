@@ -4,13 +4,41 @@
     {% include head.html %}
     {% include header.html %}
 
-  <body class="smooth-transition">
+  <body class="" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
     <div class="container-fluid"> 
 
       <section class="hero text-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <nav class="col-md-2 scrollspy" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked">
+                  <h3>Index</h3>
+                  <hr>
+                  <li><a href="#{{ page.section1href }}" class=".animsition-link">{{ page.section1 }}</a></li>
+                  <li><a href="#{{ page.section2href }}">{{ page.section2 }}</a></li>
+                  <li><a href="#{{ page.section3href }}">{{ page.section3 }}</a></li>
+                  <li><a href="#{{ page.section4href }}">{{ page.section4 }}</a></li>
+                  <li><a href="#{{ page.section5href }}">{{ page.section5 }}</a></li>
+                  <li><a href="#{{ page.section6href }}">{{ page.section6 }}</a></li>
+                  <li><a href="#{{ page.section7href }}">{{ page.section7 }}</a></li>
+                  <li><a href="#{{ page.section8href }}">{{ page.section8 }}</a></li>
+                  <li><a href="#{{ page.section9href }}">{{ page.section9 }}</a></li>
+                  <li><a href="#{{ page.section10href }}">{{ page.section10 }}</a></li>
+                  <li><a href="#{{ page.section11href }}">{{ page.section11 }}</a></li>
+                  <li><a href="#{{ page.section12href }}">{{ page.section12 }}</a></li>
+                  <li><a href="#{{ page.section13href }}">{{ page.section13 }}</a></li>
+                  <li><a href="#{{ page.section14href }}">{{ page.section14 }}</a></li>
+                  <li><a href="#{{ page.section15href }}">{{ page.section15 }}</a></li>
+                  <!--<li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Section 4-1</a></li>
+                      <li><a href="#section42">Section 4-2</a></li>                     
+                    </ul>
+                  </li>-->
+                </ul>
+              </nav>
+            <div class="col-md-9 col-md-offset-3">
               <h1>{{ page.title }}</h1>
               <p> {{ page.description }} </p>
             </div>
@@ -20,20 +48,26 @@
 
  <section class="content">
         <div class="container">
+
+        
+
+<section class="content">
           <div class="row mb-xl">
-            <div class="col-md-12"><img src="{{ page.imageurl }}" class="fadein" alt="{{ page.imagealt }}"></div>
+            <div class="col-md-10 col-md-offset-2 portfolio-content">
+              <div class="col-md-12 box"><img src="{{ page.imageurl }}" class="" alt="{{ page.imagealt }}"></div>
+              {{ content }}
+              </div>
           </div>
-
-      {{ content }}
-
     </div>
-  </section>
-  
-                <div class="text-center mb-xl">
+
+              <div class="text-center mb-xl">
                   <div class="col-md-6 col-md-offset-3">
-                    <a href="/index.html" class="btn btn-default">Back</a>
+                    <a href="/" class="btn btn-default mb-lg">Back</a>
                   </div>
               </div>
+  </section>
+  
+
 
     {% include footer.html %}
     {% include anchor_links.html %}

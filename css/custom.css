@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
     .portfolio-image {
-        max-height: 160px;
+        /*max-height: 160px;*/
     }   
     .index-title-sub {
         font-size: 20px;
@@ -56,4 +56,34 @@ footer {
   color: #555;
   font-family: "VisbyCF-Light", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
+}
+
+body {
+    position: relative;
+}
+ul.nav-pills {
+    /*top: 30vh;*/
+    position: fixed;
+    max-inline-size: 200px;
+    text-align: left;
+}
+
+  
+  @media screen and (max-width: 990px) {
+    /*.portfolio-content  {
+        margin-left: 150px;
+    }*/
+    .scrollspy {
+        display: none;
+    }
+  }
+
+.nav > li > a {
+     padding: 2px !important; 
+     padding-bottom: 5px;
+     color: #333;
+}
+
+span a {
+    text-decoration: underline !important;
 }

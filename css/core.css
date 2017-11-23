@@ -4712,8 +4712,12 @@ tbody.collapse.in {
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
+  color: #337ab7;
+  /*background-color: #337ab7;*/
+  border-bottom: 3px solid #337ab7;
+  border-right: 3px solid #337ab7;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /*text-decoration: underline ;*/
 }
 
 .nav-stacked > li {

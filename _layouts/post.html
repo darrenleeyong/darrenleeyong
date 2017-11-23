@@ -4,7 +4,8 @@
     {% include head.html %}
     {% include header.html %}
 
-  <body class="smooth-transition">
+  <!--<body class="smooth-transition">-->
+  <body class="">
     <div class="container-fluid">       
 
 {% capture readtime %}{{ page.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
