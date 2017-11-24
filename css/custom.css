@@ -79,11 +79,38 @@ ul.nav-pills {
   }
 
 .nav > li > a {
-     padding: 2px !important; 
-     padding-bottom: 5px;
+     padding: 0px !important; 
+     margin-bottom: 2px !important;
      color: #333;
+    font-size: 16px;
 }
 
 span a {
     text-decoration: underline !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    /*background-color: #337ab7;*/
+    /*color: #fff;*/
+    font-weight: 400;
+    /*padding: 16px 25px 15px;*/
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    /*font-size: 13px;*/
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body li {
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.portfolio-piece-image {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    text-align: justify;
 }

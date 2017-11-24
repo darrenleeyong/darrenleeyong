@@ -13,6 +13,16 @@
 
 @font-face {
 	font-family: 'VisbyCF';
+	src:url('../fonts/VisbyCF/VisbyCF-Bold.eot');
+    src:url('../fonts/VisbyCF/VisbyCF-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/VisbyCF/VisbyCF-Bold.woff') format('woff'),
+    url('../fonts/VisbyCF/VisbyCF-Bold.ttf') format('truetype');	
+    font-weight: bold;
+}
+
+
+@font-face {
+	font-family: 'VisbyCF';
 	src:url('../fonts/VisbyCF/VisbyCF-RegularOblique.eot');
     src:url('../fonts/VisbyCF/VisbyCF-RegularOblique.eot?#iefix') format('embedded-opentype'),
     url('../fonts/VisbyCF/VisbyCF-RegularOblique.woff') format('woff'),
