@@ -49,7 +49,7 @@
 }
 
 .portfolio-image {
-    height: 280px;
+    height: 380px;
 }
 
 footer {
@@ -75,6 +75,9 @@ ul.nav-pills {
     }*/
     .scrollspy {
         display: none;
+    }
+    .portfolio-image {
+        height: auto;
     }
   }
 
@@ -109,8 +112,13 @@ body li {
 
 .portfolio-piece-image {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    max-height: 500px;
 }
 
 .box {
     text-align: justify;
+}
+
+.highlight { 
+    background: #efc7c7;
 }

@@ -12,7 +12,7 @@
           <div class="row">
             <nav class="col-md-2 scrollspy" id="myScrollspy">
                 <ul class="nav nav-pills nav-stacked">
-                  <h3>Index</h3>
+                  <h3><a href="#header" class="fa fa-icon-arrow-circle" target="_blank"></a><a href="#header">Index.</a></h3>
                   <hr>
                   <li><a href="#{{ page.section1href }}" class=".animsition-link">{{ page.section1 }}</a></li>
                   <li><a href="#{{ page.section2href }}">{{ page.section2 }}</a></li>
@@ -63,6 +63,7 @@
               <div class="text-center mb-xl">
                   <div class="col-md-6 col-md-offset-3">
                     <a href="/" class="btn btn-default mb-lg">Back</a>
+                    
                   </div>
               </div>
   </section>
@@ -71,6 +72,18 @@
 
     {% include footer.html %}
     {% include anchor_links.html %}
+
+     <script>
+      $('a[href^="#"]').on('click', function(event) {
+          var target = $(this.getAttribute('href'));
+          if( target.length ) {
+              event.preventDefault();
+              $('html, body').stop().animate({
+                  scrollTop: target.offset().top
+              }, 500);
+          }
+      });
+     </script>
 
   </body>
 </html>
