@@ -11,7 +11,7 @@ excerpt: About me.
         <div class="container">
           
             <div class="col-md-8 col-md-offset-2 mb-md">
-              <h1 class="landing-title">
+              <h1 class="landing-title wow fadeInUp" data-wow-iteration="1" data-wow-duration="1500ms">
                 Hi! I'm Darren, 
                 <br><span class="typed">Creative</span>
                 <br>Designer.		
@@ -47,7 +47,8 @@ excerpt: About me.
                   </p>
 
                   <a href="./images/darren_lee_resume_12_01.pdf" target="_blank" align="center"><p class="btn btn-color mr-xs mb-xs"> My Resume </p></a>
-                  <a href="./images/Darren_Failure_Resume_11_17.pdf" target="_blank" align="center"><p class="btn btn-default mr-xs mb-xs"> Resume of Failures</p></a>
+                  <a href="./images/Darren_Failure_Resume_11_17.pdf" target="_blank" align="center"><p class="btn btn-default mr-xs mb-xs wow wobble" data-wow-iteration="3" data-wow-duration="1000ms"> Resume of Failures</p></a>
+
           </div>
         </div>
     
@@ -77,7 +78,7 @@ excerpt: About me.
             <div class="col-md-12 grid classic">
             
              {% for portfolio in site.portfolio reversed %}
-             <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }}">
+             <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }} wow slideInUp" data-wow-iteration="1" data-wow-duration="1500ms">
                <div class="thumb"><img class="portfolio-image" alt="{{ portfolio.imagealt }}" src="{{ portfolio.imageurl }}"></div>
                 <div class="caption">
                   <h4> {{ portfolio.title }}</h4>
@@ -117,7 +118,7 @@ excerpt: About me.
 		</main>
 </div>
 
- <script>$(function(){$(".typed").typed({strings: ["Creative + ","Web + ","Branding + ","UX/UI =", "<a href='https://medium.muz.li/<what-is-a-full-stack-designer-in-2017-will-you-be-one-7933a7145fb7' target='_blank' class='link-no-ul'>Full Stack <i class='fa fa-external-link' aria-hidden='true'></i></a>"],typeSpeed: 30,loop: false  });});</script>
+ <script>$(function(){$(".typed").typed({strings: ["Creative + ","Web + ","Branding + ","UX/UI =", "<a href='https://medium.muz.li/<what-is-a-full-stack-designer-in-2017-will-you-be-one-7933a7145fb7' target='_blank' class='link-no-ul'>Full Stack <i class='fa fa-external-link' aria-hidden='true'></i></a>"],typeSpeed: 20,loop: false  });});</script>
 
  <script>
 function portfolioScroll() {
