@@ -14,10 +14,11 @@ gem "redcarpet"
 gem "jekyll-seo-tag"
 gem "jekyll-paginate"
 gem 'openssl', '>=2.0.3'
+gem "jekyll-assets"
+gem "image_optim"
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
