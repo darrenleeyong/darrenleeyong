@@ -2,16 +2,17 @@
 author:
     name: 'Darren Lee'
     url: "http://darrensdesign.com" # the base hostname & protocol for your site, e.g. http://example.com
-    email: 'info@darrensdesign.com'
+    email: 'me@darrensdesign.com'
 title: Darren's Design
 description: > # this means to ignore newlines until "baseurl:"
-  Darren Yong Lee's Portfolio website - demonstrating his works as a full stack designer.
+  Darren's Design - portfolio website sharing latest works, design tips, and learnings
 baseurl: "/" # the subpath of your site, e.g. /blog
 twitter_username: iamdarrenly
 github_username:  darrenleeyong
 twitter:
     username: iamdarrenly
-logo: /images/opengraph.png
+logo: /images/favicon.png 
+iamge: https://darrensdesign.com/images/about/pinkwall.jpg 
 
 future: true
 excerpt_separator: '---'
