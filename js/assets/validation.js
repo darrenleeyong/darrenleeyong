@@ -10,11 +10,7 @@ $(function(){
     var serializedData = $form.serialize();
     var url = $('#form').attr('action');
     $form.find('#send, .form-control').prop('disabled', true);
-<<<<<<< HEAD
-     $.post(url, serializedData, function(response) {
-=======
       $.post(url, serializedData, function(response) {
->>>>>>> origin/master
       if(response == 'sent'){
         console.log('Sent');
         $('#send').text('Thank you!');
@@ -22,4 +18,3 @@ $(function(){
         console.log('Error: Something went wrong!')
       }
   });
-});

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(o){o(window).load(function(){o("#preloader").fadeOut("slow",function(){o(this).remove()})})});
