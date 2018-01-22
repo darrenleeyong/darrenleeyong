@@ -122,3 +122,23 @@ body li {
 .highlight { 
     background: #efc7c7;
 }
+
+/***********************************************************************************************/
+/* Button */
+/***********************************************************************************************/
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+    font-size: 16px;
+	color: white !important;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 1em;
+	display: none;
+    z-index: 9999;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 1);
+}
