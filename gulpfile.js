@@ -22,6 +22,9 @@ gulp.task('css', function(){
     .pipe(gulp.dest('dist/css'))
 });
 
+gulp.task('font', function(){
+  return gulp.src('fonts/**/*.*')
+    .pipe(gulp.dest('dist/fonts'))
+});
 
-
-gulp.task('default', [ 'compress-js', 'css']); 
+gulp.task('default', [ 'compress-js', 'css', 'font']); 

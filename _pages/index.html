@@ -78,7 +78,7 @@ excerpt:
             <div class="col-md-12 grid classic">
             
              {% for portfolio in site.portfolio reversed %}
-             <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }} wow slideInUp" data-wow-iteration="1" data-wow-duration="1500ms">
+             <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }} wow slideInLeft" data-wow-iteration="1" data-wow-duration="1500ms">
                <div class="thumb"><img class="portfolio-image" alt="{{ portfolio.imagealt }}" src="{{ portfolio.imageurl }}"></div>
                 <div class="caption">
                   <h4> {{ portfolio.title }}</h4>

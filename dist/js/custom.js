@@ -1,1 +1,1 @@
-jQuery(document).ready(function(o){o(window).load(function(){o("#preloader").fadeOut("slow",function(){o(this).remove()})})});
+jQuery(document).ready(function(o){o(window).load(function(){o("#preloader").fadeOut("slow",function(){o(this).remove()})})}),$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>200?$(".go-top").fadeIn(200):$(".go-top").fadeOut(200)}),$(".go-top").click(function(o){o.preventDefault(),$("html, body").animate({scrollTop:0},300)})});
