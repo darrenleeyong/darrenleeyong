@@ -5,13 +5,13 @@
     <meta content='#2f3241' name='theme-color' />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/typography.css">
-    <link rel="stylesheet" type="text/css" href="/css/core.css">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/css/linkstyles.css" />
+    <link rel="stylesheet" type="text/css" href="/dist/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/typography.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/core.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/dist/css/linkstyles.css" />
     <!-- inject:css-->
     <!-- endinject -->
 
@@ -19,18 +19,33 @@
     {% feed_meta %}
 
     <meta name="language" content="english">
-    <meta name="description" content="{% if page.metadescription == "" or page.metadescription == nil or page.metadescription == blank  %} Darren Lee, Full Stack UX {% endif %}{{page.metadescription}}">
+    <meta name="description" content="{% if page.metadescription == "" or page.metadescription == nil or page.metadescription == blank  %} Darren Lee's portfolio website showcasing his latest works and projects, tips & tricks, web and design tutorials, and learnings from his experience. {% endif %}{{page.metadescription}}">
     <link rel="canonical" content="https://darrensdesign.com" />
-    <meta name="author" content="{% if page.metaauthor == "" or page.metaauthor == nil or page.metaauthor == blank  %} Darren Lee, Full Stack UX {% endif %}  {{page.metaauthor}} ">
+    <meta name="author" content="{% if page.metaauthor == "" or page.metaauthor == nil or page.metaauthor == blank  %} Darren Lee, Full Stack UX Designer {% endif %}  {{page.metaauthor}} ">
     <meta name="keywords" content=" {% if page.metakeyword == "" or page.metakeyword == nil or page.metakeyword == blank  %} Fullstack UX, UI/UX, Design, Designer, Darren, Lee, Darren Lee, Darren's Design, Interactive Design, Product Design, User Experience, User Interface, User Research {% endif %}  {{page.metakeyword}}  ">
     <link rel="alternate" href="https://darrensdesign.com" hreflang="en-us" />
 
-    <meta property="og:site_name" content="{% if page.ogmetaauthor == "" or page.ogmetaauthor == nil or page.ogmetaauthor == blank  %} Darren Lee {% endif %} {{page.ogmetaauthor}}" />
+    <meta property="og:site_name" content="{% if page.ogmetaauthor == "" or page.ogmetaauthor == nil or page.ogmetaauthor == blank  %} Darren's Design {% endif %} {{page.ogmetaauthor}}" />
     <meta property="og:type" content="{% if page.ogmetatype == "" or page.ogmetatype == nil or page.ogmetatype == blank  %} article {% endif %} {{page.ogmetatype}}" />
     <meta property="og:title" content="{% if page.ogmetatitle == "" or page.ogmetatitle == nil or page.ogmetatitle == blank  %} Darren Lee, Full Stack UX {% endif %} {{page.ogmetatitle}}" />
-    <meta property="og:description" content="{% if page.ogmetadescription == "" or page.ogmetadescription == nil or page.ogmetadescription == blank  %} Darren's Design - portfolio website sharing latest works, design tips, and learnings {% endif %} {{page.ogmetadescription}}"/>
+    <meta property="og:description" content="{% if page.ogmetadescription == "" or page.ogmetadescription == nil or page.ogmetadescription == blank  %} Darren Lee's portfolio website showcasing his latest works and projects, tips & tricks, web and design tutorials, and learnings from his experience. {% endif %} {{page.ogmetadescription}}"/>
+    <meta property="og:url" content="http://www.darrensdesign.com/" />
     <meta property="og:image" content="{% if page.ogmetaimage == "" or page.ogmetaimage == nil or page.ogmetaimage == blank  %} https://darrensdesign.com/images/about/pinkwall.jpg {% endif %} {{page.ogmetaimage}}" />
-    <meta property="fb:admins" content="163038834147388" />
+    <meta property="fb:admins" content="1243112863" />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Darren Lee, Full Stack UX Designer">
+    <meta itemprop="description" content="Darren Lee's portfolio website showcasing his latest works and projects, tips & tricks, web and design tutorials, and learnings from his experience.">
+    <meta itemprop="image" content="https://darrensdesign.com/images/about/pinkwall.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iamdarrenly">
+    <meta name="twitter:title" content="Darren Lee, Full Stack UX Designer">
+    <meta name="twitter:description" content="Darren Lee's portfolio website showcasing his latest works and projects, tips & tricks, web and design tutorials, and learnings from his experience.">
+    <meta name="twitter:creator" content="@iamdarrenly">
+    <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="https://darrensdesign.com/images/about/pinkwall.jpg">
 
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
