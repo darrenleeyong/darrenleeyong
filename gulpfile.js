@@ -45,11 +45,11 @@ gulp.task('imagemin', function() {
             imageminZopfli({
                 more: true
             }),
-            //gif
-            // imagemin.gifsicle({
-            //     interlaced: true,
-            //     optimizationLevel: 3
-            // }),
+            gif
+            imagemin.gifsicle({
+                interlaced: true,
+                optimizationLevel: 3
+            }),
             //gif very light lossy, use only one of gifsicle or Giflossy
             imageminGiflossy({
                 optimizationLevel: 3,
