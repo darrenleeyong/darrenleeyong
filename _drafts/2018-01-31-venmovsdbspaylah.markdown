@@ -1,28 +1,31 @@
 ---
 layout:  post
-title:   How to Design Better.
-date:   2017-12-08 22:02:38 -0700
+title:   Venmo vs DBS Paylah!
+date:   2017-01-31 22:02:38 -0700
 categories: entries
 displayImage: /images/blog/01/designer.png
 heroImage: /images/blog/01/designer.png
 tags:    
-- design process
 - UX design
 - documentation
-- learnings 
 - business design
 - user research
 - user needs
+- competitive analysis 
+- design critique
 
 ---
 
-## What 'Value' can Designers Bring?
+## Battle of the Peer-to-peer payment apps
 
-Asides from creating pretty graphics and cool-looking illustrations, being a **GREAT** designer is not all about the pixels. As designers, we craft end-to-end experiences from the first use of a product until they stop using it.
-Which happens to be the worst case scenario as we do not want users to stop using a given product and come back to it again if the need arises. To understand how we can create better experiences we first have to understand the *user*.
+Coming back from The Bay Area to Singapore after a year, I had a huge culture shock in regards to peer to peer payment methods. This is especially so when hanging out with friends, dining with friends and you have to settle payment in any way. what if you don’t have enough cash on hand? What if you don’t have exact change? I need to take down your bank account number and type to send you money? I have to go to an atm to send you money. It’s so problematic. 
+
+In the past year, Singapore banks have started this service called paynow and each individual bank has that feature in their apps where you can do peer to peer payments tied to an a phone number or national ID number (NRIC). 
+
+Both apps does the same job of sending money to my friends - but why does Venmo triumph over DBS PayLah? Product strategy and user experience design plays a big part in the reason. 
 
 
-## User Experience Design? 
+## Venmo 
 
 User Experience (UX) Design is an emerging and in-demand field since the proliferation of modern technologies not limited to mobile phones, but also computers in everything (think Internet of Things). As such, every product, be it electronic or not, should aim to guide the user from the start to end so that they will be satisfied and businesses will be able to accelerate their growth and sales as satisfied users will only churn more growth. 
 
