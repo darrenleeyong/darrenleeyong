@@ -32,7 +32,7 @@ User Experience (UX) Design is an emerging and in-demand field since the prolife
 Understanding the user has become increasingly essential when new products or features are to be being thought of. 
 Development time and resources poured into building new products or features are costly and prior understanding of the users' needs will certainly make a bigger impact.
 
-My job as a UX designer is to prevent save teams time and investment of resources into building an application that users will not use. 
+My job as a UX designer is to save time and prevent investment of resources into building an application that users will not use. 
 All at the same time, enhancing the process from getting the product, onboarding to the product, to using the product, and then finally **always making sure that they are always satisfied with the product** — ultimately delivering an enjoyable/satisfiable end-to-end experience. 
 
 What this also means is that a UX designer's job is (should) never complete. We should always be asking **'How else can we make this better?'.**
@@ -55,7 +55,7 @@ A great UX designer usually puts on multiple hats:
 
 ![designprocess](/images/blog/01/design_process.png)
 
-I usually start the process with preliminary research an set the **focus** of the project before working on understanding the constraints around it. 
+I usually start the process with preliminary research and set the **focus** of the project before working on understanding the constraints around it. 
 
 As designers entering an age where there are many considerations to take note of, we have to keep ourselves up to date within constraints such as the technologies behind the products, the legal and government restrictions of usage, 
 security and privacy guidelines, and on top of our user-centered processes in order to build a successful product. 
@@ -65,11 +65,12 @@ We set goals to work towards by asking important questions — **Who** are we de
 ![Stuff](/images/blog/01/research.jpg)
 
 Answering these questions will provide clarity and focus on the project as you will build your designs around the answers. If you don't have these questions guiding your work, you have to do more research so you will design something that **solves the problem**.
-If you do have answers to these questions, **DOCUMENT IT**. Share it with the rest of your team! Get them on the same page as you in the form of a persona or presentation. This enables your team to provide higher quality feedback and when they are working on building the product, the end goal (understood users' needs) are insiduously stuck in their minds.
+If you do have answers to these questions, **DOCUMENT IT**. Share it with the rest of your team! Get them on the same page as you in the form of a persona or presentation. This enables your team to provide higher quality feedback and when they are working on building the product, the end goal (understood users' needs) are insiduously stuck in their minds. For instance, when I was redesigning the landing page for Arch Systems, I created a document for the business team to know the parameters of the redesign, i.e. who is our audience and the purpose of the website.  
 
+*Setting up the scope of a project for Arch's landing page redesign.*
 ![Stuff](/images/blog/01/marketresearch4.png)
 
-I proceed to brainstorm on solutions to solve the pain points. No ideas (no matter how dumb) are discounted at this stage and just piled up before filtering down. 
+I proceed to brainstorm on solutions to solve the pain points. No ideas are discounted at this stage and just piled up before filtering down. 
 
 Once an approach to the problem is decided, a **visual** representation is then made (the idea/concept is stuck in your head and no one else can see it). Put it out on pen & paper (low-fidelity). Don't spend too much time on designing this. As long as you can communicate it, a simple sketch is worth a billion dollars. 
 
@@ -77,7 +78,7 @@ Once an approach to the problem is decided, a **visual** representation is then 
 
 Now you have something visual to demonstrate your idea! Go share it with your team and get *feedback, reiterate new changes, repeat*. 
 
-Using design tools (Sketch, Photoshop e.g) with the low-fidelity sketches, mock ups are designed look close to the final product in your head. Betetr yet, make it interactive and link it up and make it as close as possible to the experience you have imagined from the beginning. I use [InVision](https://http://invisionapp.com/) to develop a fully functional prototype (as how I would imagine the product to behave). 
+Using design tools (Sketch, Photoshop e.g) with the low-fidelity sketches, mock ups are designed look close to the final product in your head. Better yet, make it interactive and link it up and make it as close as possible to the experience you have imagined from the beginning. I use [InVision](http://invisionapp.com/) to develop a fully functional prototype (as how I would imagine the product to behave). 
 
 Share that prototype and go back into that feedback loop again — gather, reiterate, repeat. 
 
@@ -87,7 +88,7 @@ As a [Full Stack Designer](https://medium.muz.li/what-is-a-full-stack-designer-i
 
 ## Thank you for reading! 
 
+***
 
-
-> #### [Example of how a design process can help create value for businesses and create a better product for users.](/portfolio/2018-01-staffany-gv-sprint/)
-> #### [Here's an example of my work as a Full Stack Designer](/portfolio/2017-11-archwebsiteexpansion/)
+#### [ > Example of how a design process can help create value for businesses and create a better product for users.](/portfolio/2018-01-staffany-gv-sprint/)
+#### [ > Here's an example of my work as a Full Stack Designer](/portfolio/2017-11-archwebsiteexpansion/)
