@@ -43,7 +43,7 @@ gulp.task('font', function(){
 
 //compress all images
 gulp.task('imagemin', function() {
-    return gulp.src(['images/**/*.{gif,png,jpg}'])
+    return gulp.src(['images/portfolio/ux_portfolio/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
