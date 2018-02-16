@@ -9,6 +9,7 @@ var imageminPngquant = require('imagemin-pngquant');
 var imageminZopfli = require('imagemin-zopfli');
 var imageminMozjpeg = require('imagemin-mozjpeg'); //need to run 'brew install libpng'
 var imageminGiflossy = require('imagemin-giflossy');
+var imageResize = require('gulp-image-resize');
  
 
 gulp.task('compress-js', function (cb) {
@@ -79,6 +80,56 @@ gulp.task('imagemin', function() {
             })
         ]))
         .pipe(gulp.dest('dist/images'));
+});
+
+gulp.task('imageresize', function () {
+  return gulp.src(['sunflower/**/*.{gif,png,jpg}'])
+    .pipe(imageResize({
+      width : 1200,
+      upscale : false
+    }))
+    .pipe(gulp.dest('dist/sunflower'));
+});
+
+//compress all images
+gulp.task('imagecompress', function() {
+    return gulp.src(['dist/sunflower/**/*.{gif,png,jpg}'])
+        .pipe(imagemin([
+            //png
+            imageminPngquant({
+                speed: 1,
+                quality: 98 //lossy settings
+            }),
+            imageminZopfli({
+                more: true
+            }),
+            // gif
+            // imagemin.gifsicle({
+            //     interlaced: true,
+            //     optimizationLevel: 3
+            // }),
+            //gif very light lossy, use only one of gifsicle or Giflossy
+            imageminGiflossy({
+                optimizationLevel: 3,
+                optimize: 3, //keep-empty: Preserve empty transparent frames
+                lossy: 2
+            }),
+            //svg
+            imagemin.svgo({
+                plugins: [{
+                    removeViewBox: false
+                }]
+            }),
+            //jpg lossless
+            imagemin.jpegtran({
+                progressive: true
+            }),
+            //jpg very light lossy, use vs jpegtran
+            imageminMozjpeg({
+                quality: 90
+            })
+        ]))
+        .pipe(gulp.dest('dist/sunflowerprocessed'));
 });
 
 gulp.task('default', [ 'compress-js', 'css', 'font', 'imagemin']); 

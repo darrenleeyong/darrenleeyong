@@ -3,8 +3,8 @@ layout:  post
 title:   How to Design Better.
 date:   2017-12-08 22:02:38 -0700
 categories: entries
-displayImage: /images/blog/01/designer.png
-heroImage: /images/blog/01/designer.png
+displayImage: /dist/images/blog/01/designer.png
+heroImage: /dist/images/blog/01/designer.png
 tags:    
 - design process
 - UX design
@@ -27,7 +27,7 @@ Which happens to be the worst case scenario as we do not want users to stop usin
 User Experience (UX) Design is an emerging and in-demand field since the proliferation of modern technologies not limited to mobile phones, but also computers in everything (think Internet of Things). As such, every product, be it electronic or not, should aim to guide the user from the start to end so that they will be satisfied and businesses will be able to accelerate their growth and sales as satisfied users will only churn more growth. 
 
 *Number of design jobs over the years.*
-![Stuff](/images/blog/01/01.jpg)
+![Stuff](/dist/images/blog/01/01.jpg)
 
 Understanding the user has become increasingly essential when new products or features are to be being thought of. 
 Development time and resources poured into building new products or features are costly and prior understanding of the users' needs will certainly make a bigger impact.
@@ -53,7 +53,7 @@ A great UX designer usually puts on multiple hats:
 ## My Own Design Process
 
 
-![designprocess](/images/blog/01/design_process.png)
+![designprocess](/dist/images/blog/01/design_process.png)
 
 I usually start the process with preliminary research and set the **focus** of the project before working on understanding the constraints around it. 
 
@@ -62,19 +62,19 @@ security and privacy guidelines, and on top of our user-centered processes in or
 
 We set goals to work towards by asking important questions — **Who** are we designing for? **Why** do we want to achieve this? **What** are the current solutions? **How can I better improve it?**
 
-![Stuff](/images/blog/01/research.jpg)
+![Stuff](/dist/images/blog/01/research.jpg)
 
 Answering these questions will provide clarity and focus on the project as you will build your designs around the answers. If you don't have these questions guiding your work, you have to do more research so you will design something that **solves the problem**.
 If you do have answers to these questions, **DOCUMENT IT**. Share it with the rest of your team! Get them on the same page as you in the form of a persona or presentation. This enables your team to provide higher quality feedback and when they are working on building the product, the end goal (understood users' needs) are insiduously stuck in their minds. For instance, when I was redesigning the landing page for Arch Systems, I created a document for the business team to know the parameters of the redesign, i.e. who is our audience and the purpose of the website.  
 
 *Setting up the scope of a project for Arch's landing page redesign.*
-![Stuff](/images/blog/01/marketresearch4.png)
+![Stuff](/dist/images/blog/01/marketresearch4.png)
 
 I proceed to brainstorm on solutions to solve the pain points. No ideas are discounted at this stage and just piled up before filtering down. 
 
 Once an approach to the problem is decided, a **visual** representation is then made (the idea/concept is stuck in your head and no one else can see it). Put it out on pen & paper (low-fidelity). Don't spend too much time on designing this. As long as you can communicate it, a simple sketch is worth a billion dollars. 
 
-![Stuff](/images/blog/01/04.jpg)
+![Stuff](/dist/images/blog/01/04.jpg)
 
 Now you have something visual to demonstrate your idea! Go share it with your team and get *feedback, reiterate new changes, repeat*. 
 
