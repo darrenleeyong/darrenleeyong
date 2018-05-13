@@ -83,17 +83,17 @@ gulp.task('imagemin', function() {
 });
 
 gulp.task('imageresize', function () {
-  return gulp.src(['sunflower/**/*.{gif,png,jpg}'])
+  return gulp.src(['images/about/*.{gif,png,jpg}'])
     .pipe(imageResize({
       width : 1200,
       upscale : false
     }))
-    .pipe(gulp.dest('dist/sunflower'));
+    .pipe(gulp.dest('dist/images'));
 });
 
 //compress all images
 gulp.task('imagecompress', function() {
-    return gulp.src(['dist/sunflower/**/*.{gif,png,jpg}'])
+    return gulp.src(['dist/images/about/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
@@ -129,7 +129,7 @@ gulp.task('imagecompress', function() {
                 quality: 90
             })
         ]))
-        .pipe(gulp.dest('dist/sunflowerprocessed'));
+        .pipe(gulp.dest('dist/images'));
 });
 
 gulp.task('default', [ 'compress-js', 'css', 'font', 'imagemin']); 

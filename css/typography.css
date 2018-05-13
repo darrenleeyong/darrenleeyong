@@ -1,6 +1,5 @@
 /*VisbyCF*/
 
-
 /*Regular*/
 @font-face {
 	font-family: 'VisbyCF';
@@ -270,4 +269,127 @@
 	src:url('../fonts/AddingtonCF/AddingtonCF-ExtraBoldItalic.ttf');
     font-weight: normal;
     font-style: italic;	
+}
+
+/*Source Sans Pro*/
+
+/*Regular, Italic, Bold*/
+@font-face {
+	font-family: 'SourceSansPro';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');	
+    font-weight: bold;
+}
+
+
+@font-face {
+	font-family: 'SourceSansPro';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-RegularOblique.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-RegularItalic.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*ExtraLight*/
+@font-face {
+	font-family: 'SourceSansPro-ExtraLight';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-ExtraLight';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Light*/
+@font-face {
+	font-family: 'SourceSansPro-Light';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Light';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-LightItalic.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*SemiBold*/
+@font-face {
+	font-family: 'SourceSansPro-Semibold';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Semibold';
+	src:url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.eot');
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.woff') format('woff'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Bold*/
+@font-face {
+	font-family: 'SourceSansPro-Bold';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Bold';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Black*/
+@font-face {
+	font-family: 'SourceSansPro-Black';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-Black';
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf') format('truetype');	
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*Miriam Libre*/
+
+/*Regular*/
+@font-face {
+	font-family: 'MiriamLibre';
+    src: url('../fonts/Miriam_Libre/MiriamLibre-Regular.ttf') format('truetype');	
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'MiriamLibre';
+    src: url('../fonts/Miriam_Libre/MiriamLibre-Bold.ttf') format('truetype');	
+    font-weight: bold;
 }

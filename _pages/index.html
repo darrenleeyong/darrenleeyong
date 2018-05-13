@@ -10,67 +10,21 @@ layout: default
           
             <div class="col-md-8 col-md-offset-2 mb-md">
               <h1 class="landing-title wow fadeInUp" data-wow-iteration="1" data-wow-duration="1000ms">
-                Get inside the head of Darren Lee, 
-                <br><span class="typed">Creative</span>
+                Hi, I'm Darren Lee, 
+                <br><span class="typed">User Experience</span>
                 <br>Designer 👨🏻‍💻		
               </a>
               </h1>
-            </div>           
+
+              <h2 id="portfolio-header" class="pt-lg wow bounceInUp" data-wow-duration="1500ms" align="center"><a href="/about/">About Me</a></h2>
+            </div>      
          
-        </div>
-      </section>
-
-<section>
-      <section class="content">
-        <div class="container">
-
-        <div class="row">
-          <div class="col-md-6"><img src="/dist/images/about/pinkwall.jpg" alt="this is Darren Lee, designer.">
-            <div class="box pb-0">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="box pt-0">
-                <h2 align="left">Born + Raised in Sunny Side-up Singapore</h2>
-                <br>
-                <p> 
-                   I am a self-taught <a href="https://medium.muz.li/what-is-a-full-stack-designer-in-2017-will-you-be-one-7933a7145fb7" target="_blank" class="link-no-ul">Full Stack UX Designer</a> and a Junior (final year) student of National University of Singapore. 
-                   <br>
-                   <br> Combining data-driven methodologies, creativity, and a user-centered approach into problem-solving, I develop an understanding of the product without going through the pain of building it. 
-                  <br>
-                  <br>Currently studying Communications and New Media at <a href="http://www.nus.edu.sg/global/rankings.html" target="_blank" class="link-no-ul">National University of Singapore</a>, Singapore.
-                  <!--<br><i class="fa fa-search" aria-hidden="true"></i> <a href="/contact/" target="_blank" class="link-no-ul">Part-Time internship (Jan-May '18)</a> in Singapore.         -->
-                  <br><i class="fa fa-search" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/darrenleeyong/" target="_blank" class="link-no-ul"> Seeking Summer Internship (May-Aug '18)</a> in the Bay Area.         
-                
-                  </p>
-
-                  <a href="./darren_lee_resume_02_04_2018.pdf" target="_blank" align="center"><p class="btn btn-color mr-xs mb-xs"> My Resume </p></a>
-                  <a href="./darren-failure-resume-11-17.pdf" target="_blank" align="center"><p class="btn btn-default mr-xs mb-xs wow wobble" data-wow-iteration="1" data-wow-duration="1000ms"> Resume of Failures</p></a>
-
-          </div>
-        </div>
-    
-
-        </div>
-      </section>
-
-</section>
-
-
- <section class="hero text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <h2 id="portfolio-header">My Portfolio</h2>
-            </div>
-          </div>
         </div>
       </section>
 
       <section class="grid-container mb-md">
         <div class="container">
           <div class="row">
-            <!--<div class="col-md-12"><a href="#" class="btn btn-default filter-trigger">Filter</a></div>-->
 
             <div class="col-md-12 grid classic">
             
@@ -79,7 +33,8 @@ layout: default
                <div class="thumb"><img class="portfolio-image" alt="{{ portfolio.imagealt }}" src="{{ portfolio.imageurl }}"></div>
                 <div class="caption">
                   <h4> {{ portfolio.title }}</h4>
-                  <div class="tag"> {{ portfolio.description }} </div>
+                  <div class="tag pb-sm"> {{ portfolio.description }} </div>
+                  <div class="skills"> Skills & Tools: {{ portfolio.skills }} </div>
                 </div></a>
             {% endfor portfolio %}
 
@@ -88,25 +43,10 @@ layout: default
         </div>
       </section>
 
-      <!--<div class="filter-container">
-        <div class="container">
-          <div class="inner">
-            <ul class="filters">
-              <li> <a href="#" data-filter="item" class="active filter">All</a></li>
-              <li><a href="#" data-filter="design" class="filter">Design</a></li>
-              <li><a href="#" data-filter="typography" class="filter">Typography</a></li>
-              <li><a href="#" data-filter="webdesign" class="filter">Web Design</a></li>
-              <li><a href="#" data-filter="branding" class="filter">Branding</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>-->
-
-
 		</main>
 </div>
 
- <script>$(function(){$(".typed").typed({strings: ["Product + ","Interaction +", "UX / UI + ","Web + ","Branding =", "<a href='https://medium.muz.li/<what-is-a-full-stack-designer-in-2017-will-you-be-one-7933a7145fb7' target='_blank' class='link-no-ul'>Full Stack <i class='fa fa-external-link' aria-hidden='true'></i></a>"],typeSpeed: 20,loop: false  });});</script>
+ <script>$(function(){$(".typed").typed({strings: ["User Experience", "Interaction + ", "User Interface + ","Web + ","Product +", " Problem-Solving"],typeSpeed: 20,loop: false  });});</script>
 
  <script>
 function portfolioScroll() {
