@@ -83,7 +83,7 @@ gulp.task('imagemin', function() {
 });
 
 gulp.task('imageresize', function () {
-  return gulp.src(['images/about/*.{gif,png,jpg}'])
+  return gulp.src(['images/portfolio/**/*.{gif,png,jpg}'])
     .pipe(imageResize({
       width : 1200,
       upscale : false
@@ -93,7 +93,7 @@ gulp.task('imageresize', function () {
 
 //compress all images
 gulp.task('imagecompress', function() {
-    return gulp.src(['dist/images/about/*.{gif,png,jpg}'])
+    return gulp.src(['dist/images/portfolio/freelance_websites/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
@@ -129,7 +129,7 @@ gulp.task('imagecompress', function() {
                 quality: 90
             })
         ]))
-        .pipe(gulp.dest('dist/images'));
+        .pipe(gulp.dest('dist/images/portfolio/freelance_websites/'));
 });
 
 gulp.task('default', [ 'compress-js', 'css', 'font', 'imagemin']); 

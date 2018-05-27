@@ -4,6 +4,11 @@
 	color: crimson !important;
 }
 
+.post-meta {
+    font-size: 18px;
+    color: #777;
+}
+
 .landing-title {
     margin-bottom: 0 !important;
     margin-top: 0 !important;
@@ -159,3 +164,17 @@ body li {
 	background-color: rgba(0, 0, 0, 1);
 }
 
+/***********************************************************************************************/
+/* Tooltip */
+/***********************************************************************************************/
+
+.tippytooltip {
+    border-bottom: 1px dashed #999;
+    text-decoration: none;
+}
+
+.tippy-tooltip.regular-theme {
+  font-size: 16px;
+  font-family: "SourceSansPro", "Helvetica Neue", Helvetica, sans-serif;
+  padding: 2px;
+}

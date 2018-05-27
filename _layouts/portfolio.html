@@ -7,6 +7,8 @@
   <body class="no-lines" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
     <div class="container-fluid"> 
 
+      {% capture readtime %}{{ page.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
+
       <section class="hero text-center">
         <div class="container">
           <div class="row">
@@ -29,18 +31,15 @@
                   <li><a href="#{{ page.section13href }}">{{ page.section13 }}</a></li>
                   <li><a href="#{{ page.section14href }}">{{ page.section14 }}</a></li>
                   <li><a href="#{{ page.section15href }}">{{ page.section15 }}</a></li>
-                  <!--<li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Section 4-1</a></li>
-                      <li><a href="#section42">Section 4-2</a></li>                     
-                    </ul>
-                  </li>-->
+
                 </ul>
               </nav>
             <div class="col-md-9 col-md-offset-3">
               <h1>{{ page.title }}</h1>
-              <p> {{ page.description }} </p>
+              <p class="post-meta"> {{ page.description }} </p>
+               <p class="post-meta">
+                    Reading Time: {% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min(s) read
+                </p>
             </div>
           </div>
         </div>
@@ -63,7 +62,6 @@
               <div class="text-center mb-xl">
                   <div class="col-md-6 col-md-offset-3">
                     <a href="/" class="btn btn-default mb-lg">Back to Portfolio</a>
-                    <!--<a href="#header" class="btn btn-default mb-lg">Back to top</a>-->
                     
                   </div>
               </div>
@@ -85,6 +83,19 @@
           }
       });
      </script>
+
+      <script>
+      tippy('.tippytooltip', {
+        allowTitleHTML: true,
+        delay: 100,
+        distance: 10,
+        arrow: true,
+        size: 'large',
+        duration: 500,
+        theme: 'regular',
+        animation: 'scale'
+      })
+      </script>
 
   </body>
 </html>

@@ -1,3 +1,8 @@
+// Node environment
+const tippy = require('tippy.js')
+// With a module bundler (webpack/rollup/parcel)
+import tippy from 'tippy.js'
+
 jQuery(document).ready(function($) {  
 
 // site preloader -- also uncomment the div in the header and the css style for #preloader
