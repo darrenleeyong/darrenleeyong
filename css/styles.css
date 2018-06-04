@@ -833,20 +833,32 @@ aside:before {
 */
 .btn {
   border-radius: 0;
-  border: 0;
-  font-family: "SourceSansPro","VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
+  border: 0; 
+  font-family: "MiriamLibre", "SourceSansPro","VisbyCF-Regular", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
 }
 
-.btn.btn-default, .btn.btn-color {
-  background: #000;
+.btn.btn-default {
+  background: #dc143c;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
   padding: 16px 25px 15px;
   -webkit-transition: background .3s;
   transition: background .3s;
-  font-size: 13px;
+  font-size: 16px;
+}
+
+.btn.btn-color {
+  background: #fff;
+  border: 1px solid #2C55D5;
+  color: #2C55D5;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 16px 25px 15px;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  font-size: 16px;
 }
 
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-color:hover, .btn.btn-color:focus, .btn.btn-color:active {
@@ -855,7 +867,7 @@ aside:before {
 }
 
 .btn.btn-color, .btn.active {
-  background: #2C55D5;
+  background: #fff;
 }
 
 /*
