@@ -203,3 +203,15 @@ body li {
   font-family: "SourceSansPro", "Helvetica Neue", Helvetica, sans-serif;
   padding: 2px;
 }
+
+.img-description {
+    margin: 0 auto !important;
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    font-style: italic;
+}
+
+.quotes {
+    border-left: #333 10px solid;
+}

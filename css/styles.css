@@ -477,7 +477,7 @@ ul.navigation li:hover ul.dropdown {
 
 .grid.classic .item .caption {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 @media screen and (max-width: 992px) {
