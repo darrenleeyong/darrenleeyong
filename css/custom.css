@@ -124,6 +124,9 @@ body li {
 .portfolio-piece-image {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box {
@@ -141,7 +144,8 @@ body li {
 }
 
 #portfolio-header a:hover {
-	text-decoration: underline wavy #555;
+    border-bottom: 2px dashed #888;
+    text-decoration: none;
 }
 
 .resume li {
@@ -167,6 +171,12 @@ body li {
 
 .resume .download {
     text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /***********************************************************************************************/
