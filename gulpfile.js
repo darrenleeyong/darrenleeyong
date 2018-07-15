@@ -83,17 +83,17 @@ gulp.task('imagemin', function() {
 });
 
 gulp.task('imageresize', function () {
-  return gulp.src(['images/portfolio/dbspaylah_redesign/*.{gif,png,jpg}'])
+  return gulp.src(['images/portfolio/illustrations/*.{gif,png,jpg}'])
     .pipe(imageResize({
       width : 1200,
       upscale : false
     }))
-    .pipe(gulp.dest('dist/images/portfolio/dbspaylah_redesign/'));
+    .pipe(gulp.dest('dist/images/portfolio/illustrations/'));
 });
 
 //compress all images
 gulp.task('imagecompress', function() {
-    return gulp.src(['dist/images/portfolio/dbspaylah_redesign/*.{gif,png,jpg}'])
+    return gulp.src(['dist/images/portfolio/illustrations/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
@@ -129,7 +129,7 @@ gulp.task('imagecompress', function() {
                 quality: 90
             })
         ]))
-        .pipe(gulp.dest('dist/images/portfolio/dbspaylah_redesign/'));
+        .pipe(gulp.dest('dist/images/portfolio/illustrations/'));
 });
 
 gulp.task('default', [ 'compress-js', 'css', 'font', 'imagemin']); 
