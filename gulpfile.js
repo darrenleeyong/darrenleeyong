@@ -43,7 +43,7 @@ gulp.task('font', function(){
 
 //compress all images
 gulp.task('imagemin', function() {
-    return gulp.src(['images/portfolio/dbspaylah_redesign/*.{gif,png,jpg}'])
+    return gulp.src(['images/portfolio/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
@@ -79,21 +79,21 @@ gulp.task('imagemin', function() {
                 quality: 90
             })
         ]))
-        .pipe(gulp.dest('dist/images'));
+        .pipe(gulp.dest('dist/images/portfolio/'));
 });
 
 gulp.task('imageresize', function () {
-  return gulp.src(['images/portfolio/illustrations/*.{gif,png,jpg}'])
+  return gulp.src(['images/portfolio/staffany_design/*.{gif,png,jpg}'])
     .pipe(imageResize({
       width : 1200,
       upscale : false
     }))
-    .pipe(gulp.dest('dist/images/portfolio/illustrations/'));
+    .pipe(gulp.dest('dist/images/portfolio/staffany_design/'));
 });
 
 //compress all images
 gulp.task('imagecompress', function() {
-    return gulp.src(['dist/images/portfolio/illustrations/*.{gif,png,jpg}'])
+    return gulp.src(['dist/images/portfolio/staffany_design/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
@@ -129,7 +129,7 @@ gulp.task('imagecompress', function() {
                 quality: 90
             })
         ]))
-        .pipe(gulp.dest('dist/images/portfolio/illustrations/'));
+        .pipe(gulp.dest('dist/images/portfolio/staffany_design/'));
 });
 
 gulp.task('default', [ 'compress-js', 'css', 'font', 'imagemin']); 
