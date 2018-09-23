@@ -140,11 +140,15 @@ body li {
 #portfolio-header {
 	font-family: "MiriamLibre";
 	color: #333 !important;
-	/*text-decoration: underline dotted;*/
+	/*text-decoration: underline;*/
+}
+
+#portfolio-header a{
+    border-bottom: 2px dashed;
 }
 
 #portfolio-header a:hover {
-    border-bottom: 2px dashed #888;
+    border-bottom: 2px dashed #2c55d5;
     text-decoration: none;
 }
 
@@ -197,6 +201,25 @@ iframe {
 
 .go-top:hover {
 	background-color: rgba(0, 0, 0, 1);
+}
+
+#video {
+   /*display:none;*/
+   /*position: fixed;*/
+   /*top: 50%;*/
+   /*left: 50%;*/
+   min-width: 100%;
+   min-height: 100%;
+   width: 100%;
+   /*height: auto;*/
+   z-index: -100;
+   /*-webkit-transform: translateX(-50%) translateY(-50%);*/
+   /*transform: translateX(-50%) translateY(-50%);*/
+}	
+
+.miriam {
+	font-family: "MiriamLibre";
+	/*color: #333 !important;*/
 }
 
 /***********************************************************************************************/
