@@ -12,7 +12,7 @@ layout: default
               <h1 class="landing-title wow fadeInUp" data-wow-iteration="1" data-wow-duration="1000ms">
                 Hi! I'm Darren, 
                 <br><span class="typed">User Experience</span>
-                <br>Designer		
+                Designer		
               </a>
               </h1>
 
@@ -42,7 +42,25 @@ layout: default
                 <div class="caption">
                   <h4> {{ portfolio.title }}</h4>
                   <div class="tag pb-sm"> {{ portfolio.description }} </div>
-                  <div class="skills"> {{ portfolio.skills }} </div>
+                  {% if portfolio.skills1 == null %} 
+                    {% else %}
+                      <span class="skillstag"> {{ portfolio.skills1 }} </span> 
+                  {% endif %}
+
+                  {% if portfolio.skills2 == null %} 
+                    {% else %}
+                      <span class="skillstag"> {{ portfolio.skills2 }} </span> 
+                  {% endif %}
+
+                  {% if portfolio.skills3 == null %} 
+                  <!--<span class="skillstag"> </span> -->
+                    {% else %}
+                      <span class="skillstag"> {{ portfolio.skills3 }} </span> 
+                  {% endif %}
+
+                  <!--<span class="skillstag"> {{ portfolio.skills2 }} </span> -->
+                  
+                  <!--<span class="skillstag"> {{ portfolio.skills3 }} </span>-->
                 </div></a>
             {% endfor portfolio %}
 

@@ -50,6 +50,18 @@
     color: #63ace5;
 }
 
+.skillstag {
+    padding: 5px 8px 7px;
+    background-color: #ebedf1;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #8D8E8F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 @media screen and (max-width: 768px) {
     .portfolio-image {
         /*max-height: 160px;*/
