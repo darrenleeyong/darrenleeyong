@@ -145,6 +145,7 @@ body li {
 
 #portfolio-header a{
     border-bottom: 2px dashed;
+    font-size: 0.6em !important;
 }
 
 #portfolio-header a:hover {
