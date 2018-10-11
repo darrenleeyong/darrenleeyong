@@ -72,7 +72,8 @@
 }
 
 .portfolio-image {
-    height: 420px;
+    height: 360px;
+
 }
 
 footer {
@@ -128,7 +129,7 @@ span a {
 
 body li {
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.6;
     color: #555;
 }
@@ -169,7 +170,7 @@ body li {
     list-style: none;
     margin: 0 0 2.6rem 0;
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.6;
     /*color: #555;*/
 }
@@ -260,4 +261,8 @@ iframe {
 
 .quotes {
     border-left: #333 10px solid;
+    padding-left: 10px;
+    font-style: italic; 
+    font-size: 20px;
+    color: #888;
 }
