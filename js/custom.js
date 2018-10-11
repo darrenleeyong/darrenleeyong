@@ -1,7 +1,8 @@
 // Node environment
-const tippy = require('tippy.js')
+// const tippy = require('tippy.js')
+
 // With a module bundler (webpack/rollup/parcel)
-import tippy from 'tippy.js'
+// import tippy from 'tippy.js'
 
 jQuery(document).ready(function($) {  
 
