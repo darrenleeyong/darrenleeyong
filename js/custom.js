@@ -30,3 +30,9 @@ $(document).ready(function() {
 				$('html, body').animate({scrollTop: 0}, 300);
 			})
 		});
+
+
+$(window).scroll(function(){
+    var scroll = ($(window).scrollTop()) / ($(document).height() - $(window).height()) * 100;
+    $('.scroll').css( "width", scroll+"%" );
+  });

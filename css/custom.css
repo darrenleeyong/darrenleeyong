@@ -318,3 +318,11 @@ iframe {
  transform: translateY(-10px) scale(1.005) translateZ(0);
   box-shadow: 0 24px 36px rgba(59, 89, 152, .3);
 }
+
+.scroll{
+    position: fixed;
+    top: 0px;
+    background-color: #337ab7;
+    padding-bottom: 5px;
+    z-index: 999;
+  }
