@@ -273,3 +273,48 @@ iframe {
     font-size: 20px;
     color: #888;
 }
+
+.pulse {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:red;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+	animation: pulse 1.5s infinite;
+  }
+  .pulse:hover {
+	animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+	0% {
+	  -webkit-box-shadow: 0 0 0 0 rgba(255, 53, 53, 0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 10px rgba(255, 53, 53, 0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(255, 53, 53, 0);
+	}
+  }
+  @keyframes pulse {
+	0% {
+	  -moz-box-shadow: 0 0 0 0 rgba(255, 53, 53, 0.4);
+	  box-shadow: 0 0 0 0 rgba(255, 53, 53, 0.4);
+	}
+	70% {
+		-moz-box-shadow: 0 0 0 10px rgba(255, 53, 53, 0);
+		box-shadow: 0 0 0 10px rgba(255, 53, 53, 0);
+	}
+	100% {
+		-moz-box-shadow: 0 0 0 0 rgba(255, 53, 53, 0);
+		box-shadow: 0 0 0 0 rgba(255, 53, 53, 0);
+	}
+  }
+
+.company:nth-child(1):hover {
+ transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(59, 89, 152, .3);
+}
