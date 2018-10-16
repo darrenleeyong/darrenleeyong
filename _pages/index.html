@@ -15,11 +15,14 @@ layout: default
               </a>
               </h1>
               
-              <p class="portfolio-header mt-md wow fadeInUp" data-wow-iteration="1" data-wow-duration="1000ms" align="center">
-                Currently, I'm a student at National University of Singapore
+              <p class="portfolio-header mt-md wow fadeInUp" id="portfolio-header" data-wow-iteration="1" data-wow-duration="1000ms" align="center">
+                Currently studying at National University of Singapore
                 <br> 
-                also doing an internship at IBM iX
+                and doing an internship at IBM iX. <a href="/about/"> >> More about me </a>
               </p>
+
+                            <!--<h2 id="portfolio-header" class=" wow bounceInUp" data-wow-duration="1500ms" align="center">
+                <a href="/about/"> >> more about me </a></h2>-->
 
               <video id="video" class="mt-md" autoplay muted playsinline poster="dist/images/about/videos/me3.jpg">
                 <source src="dist/images/about/videos/me3-2.mp4" type="video/mp4">
@@ -27,8 +30,7 @@ layout: default
                 <source src="dist/images/about/videos/me3.ogg" type="video/ogg">
               </video>
 
-              <h2 id="portfolio-header" class=" wow bounceInUp" data-wow-duration="1500ms" align="center">
-                <a href="/about/"> >> more about me </a></h2>
+
             </div>      
          
         </div>
@@ -38,6 +40,8 @@ layout: default
         <div class="container">
           <div class="row">
 
+            <h2 align="center">Case Studies</h2>
+            <br><br>
             <div class="col-md-12 grid classic">
             
              {% for portfolio in site.portfolio reversed %}
@@ -69,6 +73,38 @@ layout: default
             {% endfor portfolio %}
 
               </div>
+
+            <h2 align="center">Other Projects</h2>
+            <br><br>
+            <div class="col-md-12 grid classic">
+            
+             {% for portfolio in site.projects reversed %}
+             <a href="{{ portfolio.url }}" class="item {{ portfolio.filter }}" data-wow-iteration="1" data-wow-duration="1500ms">
+               <div class="thumb"><img class="portfolio-image" alt="{{ portfolio.imagealt }}" src="{{ portfolio.imageurl }}"></div>
+                <div class="caption">
+                  <h4> {{ portfolio.title }}</h4>
+                  <div class="tag pb-sm"> {{ portfolio.description }} </div>
+                  {% if portfolio.skills1 == null %} 
+                    {% else %}
+                      <span class="skillstag"> {{ portfolio.skills1 }} </span> 
+                  {% endif %}
+
+                  {% if portfolio.skills2 == null %} 
+                    {% else %}
+                      <span class="skillstag"> {{ portfolio.skills2 }} </span> 
+                  {% endif %}
+
+                  {% if portfolio.skills3 == null %} 
+                    {% else %}
+                      <span class="skillstag"> {{ portfolio.skills3 }} </span> 
+                  {% endif %}
+
+                </div></a>
+            {% endfor portfolio %}
+
+              </div>
+
+
           </div>
         </div>
       </section>

@@ -22,6 +22,7 @@ sass:
 collections:
     docs: {output: true, permalink: '/docs/:path/'}
     portfolio: {output: true, permalink: '/portfolio/:path/'}
+    projects: {output: true, permalink: '/projects/:path/'}
 defaults:
     - {scope: {type: docs}, values: {layout: docs}}
     - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}
@@ -40,6 +41,7 @@ exclude:
     - _drafts
 include:
     - _pages
+    - _projects
     - .htaccess
 
 # Paginate
