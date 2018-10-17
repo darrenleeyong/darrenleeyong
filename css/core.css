@@ -1408,7 +1408,7 @@ html {
 }
 
 body {
-  font-family: "Addington-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SourceSansPro","Addington-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -16722,7 +16722,7 @@ h6 {
 p {
   font-weight: 300;
   font-size: 1.2em;
-  line-height: 1.6;
+  line-height: 34px;
   color: #555;
   margin-bottom: 30px;
 }
