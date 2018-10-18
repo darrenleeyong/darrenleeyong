@@ -14,21 +14,19 @@ layout: default
                 <br><span class="typed">User Experience</span>Designer		
               </a>
               </h1>
-              
-              <p class="portfolio-header mt-md wow fadeInUp" id="portfolio-header" data-wow-iteration="1" data-wow-duration="1000ms" align="center">
-                Currently studying at National University of Singapore
-                
-                and doing an internship at IBM iX. <a href="/about/"> >> More about me </a>
-              </p>
-
-                            <!--<h2 id="portfolio-header" class=" wow bounceInUp" data-wow-duration="1500ms" align="center">
-                <a href="/about/"> >> more about me </a></h2>-->
 
               <video id="video" class="mt-md" autoplay muted playsinline poster="dist/images/about/videos/me3.jpg">
                 <source src="dist/images/about/videos/me3-2.mp4" type="video/mp4">
                 <source src="dist/images/about/videos/me3.webm" type="video/webm">
                 <source src="dist/images/about/videos/me3.ogg" type="video/ogg">
               </video>
+
+                            <p class="portfolio-header mt-md wow fadeInUp" id="portfolio-header" data-wow-iteration="1" data-wow-duration="1000ms" align="center">
+                I'm excited about how design is at forefront to solve complex problems and do good for people.
+                 <!--Currently studying at National University of Singapore
+                and doing an internship at IBM iX.-->
+                 <a href="/about/"> >>More about me </a>
+              </p>
 
 
             </div>      
@@ -40,7 +38,7 @@ layout: default
         <div class="container">
           <div class="row">
 
-            <h2 align="center">Case Studies</h2>
+            <h3 align="center">I enjoy working on all sorts of problems. Here are some of my case studies.</h3>
             <br><br>
             <div class="col-md-12 grid classic">
             
@@ -61,20 +59,15 @@ layout: default
                   {% endif %}
 
                   {% if portfolio.skills3 == null %} 
-                  <!--<span class="skillstag"> </span> -->
                     {% else %}
                       <span class="skillstag"> {{ portfolio.skills3 }} </span> 
                   {% endif %}
-
-                  <!--<span class="skillstag"> {{ portfolio.skills2 }} </span> -->
-                  
-                  <!--<span class="skillstag"> {{ portfolio.skills3 }} </span>-->
                 </div></a>
             {% endfor portfolio %}
 
               </div>
-
-            <h2 align="center">Other Projects</h2>
+              <br><br>
+            <h3 align="center" class="mt-md"> ...and here are some of my other projects.</h3>
             <br><br>
             <div class="col-md-12 grid classic">
             
