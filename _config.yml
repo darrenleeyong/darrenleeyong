@@ -12,7 +12,7 @@ github_username:  darrenleeyong
 twitter:
     username: iamdarrenly
 logo: /images/favicon.png 
-image: https://darrensdesign.com/images/about/pinkwall.jpg 
+image: http://darrensdesign.com/dist/images/about/darren-about.jpg
 
 future: true
 excerpt_separator: '---'
