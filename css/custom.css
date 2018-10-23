@@ -151,6 +151,13 @@ body li {
     margin-right: auto;
 }
 
+.portfolio-piece-image-ns {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .box {
     text-align: justify;
 }
