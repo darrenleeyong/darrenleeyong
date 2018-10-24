@@ -6,6 +6,7 @@ permalink: /fishsics
 
 <!DOCTYPE html>
 <html lang="en-us">
+  {% include head.html %}
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -18,7 +19,16 @@ permalink: /fishsics
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/fishsics_webgl.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body class="no-lines">
+    <div class="container">
+    <h1 align="center">Fishysics</h1>
+    <p>
+      Fishsics is a single player continuous side-scrolling game where you play a fabulous flying fish whose goal is to fly above water with style without being eaten by predators above, and below the sea. The fish can dive underwater, spring up above water and glide in the air. The game ends when the fish gets eaten by a bird, shark or hit by jellyfish, and increases in difficulty as predators get faster and appear more frequently. 
+      <br><br>
+      The game is still being developed and the version below in its experimental stage. Please send feedback to <a href="mailto:darrenlee@u.nus.edu" target="_blank">my group and I</a>, or whoever sent you the link. 
+    </p>
+    </div>
+
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
