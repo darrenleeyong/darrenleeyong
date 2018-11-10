@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "Fishysics",
+"productName": "Fishsics",
 "dataUrl": "fishsics_webgl.data.unityweb",
 "wasmCodeUrl": "fishsics_webgl.wasm.code.unityweb",
 "wasmFrameworkUrl": "fishsics_webgl.wasm.framework.unityweb",
