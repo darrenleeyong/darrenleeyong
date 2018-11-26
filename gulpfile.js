@@ -43,7 +43,7 @@ gulp.task('font', function(){
 
 //compress all images
 gulp.task('imagemin', function() {
-    return gulp.src(['dist/images/portfolio/illustrations/*.{gif,png,jpg}'])
+    return gulp.src(['dist/images/portfolio/gamedesign/*.{gif,png,jpg}'])
         .pipe(imagemin([
             //png
             imageminPngquant({
@@ -79,16 +79,16 @@ gulp.task('imagemin', function() {
                 quality: 90
             })
         ]))
-        .pipe(gulp.dest('dist/images/portfolio/illustrations/'));
+        .pipe(gulp.dest('dist/images/portfolio/gamedesign/'));
 });
 
 gulp.task('imageresize', function () {
-  return gulp.src(['images/portfolio/illustrations/*.{gif,png,jpg}'])
+  return gulp.src(['images/portfolio/gamedesign/*.{gif,png,jpg}'])
     .pipe(imageResize({
       width : 1200,
       upscale : false
     }))
-    .pipe(gulp.dest('dist/images/portfolio/illustrations/'));
+    .pipe(gulp.dest('dist/images/portfolio/gamedesign/'));
 });
 
 //compress all images
